@@ -1,13 +1,16 @@
-import './App.css'
-import Pages from './pages/Pages'
+import "./App.css";
+import Pages from "./pages/Pages";
+
 function App() {
-
-
   return (
-    <>
-      <Pages />
-    </>
-  )
+    <div className="relative">
+      <div className="bg-image absolute inset-0 z-0"></div>
+      <div className="bg-yellow-500 opacity-10 absolute inset-0 z-0"></div>
+      <div className="relative z-10">
+        <Pages />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
