@@ -38,6 +38,8 @@ export default {
         Roboto: ["Roboto", "sans-serif"],
         Fira: ["Fira Sans", "sans-serif"],
         Pacifico: ["Pacifico", "cursive"],
+        Josefin: ['Josefin Sans', 'sans-serif'],
+        Cairo: ['Cairo', 'sans-serif']
       },
       backgroundImage: {
         "eye-makeup": "url('/eye-makeup.jpg')",
@@ -73,6 +75,7 @@ export default {
         "gega-earth": "#852505",
         "gega-orange": "#DA9500",
         "gega-bg": "#FBF6EE",
+        "gega-green": "#908951"
       },
     },
   },
