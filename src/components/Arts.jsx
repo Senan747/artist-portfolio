@@ -1,5 +1,6 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { BrowserRouter } from "react-router-dom";
 
 function Arts() {
   const imageElements = [];
@@ -13,8 +14,24 @@ function Arts() {
   }
 
   return (
-    <div className="mt-20">
-      <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">Əsərlər</h1>
+    <div id="#arts" className="mt-20">
+      <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">
+        Əsərlər
+      </h1>
+      <video
+        width="320"
+        height="240"
+        src="/animation.mp4"
+        type="video/mp4"
+        controls
+      ></video>
+      <video
+        width="320"
+        height="240"
+        src="/animation-2.mp4"
+        type="video/mp4"
+        controls
+      ></video>
       <div className="">
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 300: 1, 500: 2, 700: 3, 900: 4 }}

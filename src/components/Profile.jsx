@@ -2,7 +2,7 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="w-full flex items-center justify-center my-10">
+    <div className="w-full flex items-center justify-center my-10 ">
       <div className="w-[1200px] bg-gega-green flex flex-row justify-between p-20">
         <div className="bg-gega-white rounded-[30px] p-10">
           <div className="pb-5 flex flex-row items-center">

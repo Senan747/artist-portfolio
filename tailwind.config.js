@@ -75,7 +75,9 @@ export default {
         "gega-earth": "#852505",
         "gega-orange": "#DA9500",
         "gega-bg": "#FBF6EE",
-        "gega-green": "#908951"
+        "gega-green": "#908951",
+        "gega-navbar": "#DDCAB9",
+        "gega-dark-red": "#9B3727"
       },
     },
   },
