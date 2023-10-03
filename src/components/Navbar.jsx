@@ -9,12 +9,12 @@ function Navbar() {
       </div>
       <div className="flex flex-row justify-between gap-20">
         <div className="text-xl text-gega-dark-red font-semibold">
-          <Link to={"#arts"}></Link>
+          <Link to={"/"}></Link>
           Ana səhifə
         </div>
         <div className="text-xl text-gega-dark-red font-semibold">Haqqında</div>
         <div className="text-xl text-gega-dark-red font-semibold">
-          <Link to={"#arts"}>Rəsimlər</Link>
+          <Link to={"/resmler"}>Rəsmlər</Link>
         </div>
       </div>
     </div>
