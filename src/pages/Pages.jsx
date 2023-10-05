@@ -3,6 +3,7 @@ import Home from "./Home";
 import Arts from "./Arts";
 import Contact from "./Contact";
 import Art from "./Art";
+import Buy from "./Buy"
 
 function Pages () {
     return (
@@ -11,6 +12,7 @@ function Pages () {
             <Route path="/resmler" element={<Arts />}/>
             <Route path="/elaqe" element={<Contact />} />
             <Route path="/art/:name" element={<Art />} />
+            <Route path="/buy" element={<Buy />} />
         </Routes>
     )
 }

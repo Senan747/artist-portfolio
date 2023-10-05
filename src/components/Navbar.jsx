@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className=" bg-gega-navbar flex flex-row justify-between items-center top-0 sticky p-4">
+    <div className=" bg-gega-navbar flex flex-row justify-between items-center top-0 sticky p-4 w-[1400px]">
       <div className="w-[80px] h-[80px]">
         <img src="/logo-2.png" alt="" />
       </div>
