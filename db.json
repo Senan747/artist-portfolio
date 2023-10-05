@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "author": "Mountains",
+    "name": "Mountain Landscape",
+    "year": 2008,
+    "technique": "oil on canvas",
+    "dimensions": "60x80 cm"
+  },
+  {
+    "id": 2,
+    "author": "New Artist 1",
+    "name": "Abstract Artwork",
+    "year": 2023,
+    "technique": "acrylic on canvas",
+    "dimensions": "70x90 cm"
+  },
+  {
+    "id": 3,
+    "author": "New Artist 2",
+    "name": "Watercolor Beauty",
+    "year": 2015,
+    "technique": "watercolor on paper",
+    "dimensions": "50x70 cm"
+  },
+  {
+    "id": 4,
+    "author": "New Artist 3",
+    "name": "Colorful Canvas",
+    "year": 2020,
+    "technique": "oil on canvas",
+    "dimensions": "80x100 cm"
+  },
+  {
+    "id": 5,
+    "author": "New Artist 4",
+    "name": "Mixed Media Art",
+    "year": 2019,
+    "technique": "mixed media on wood",
+    "dimensions": "60x80 cm"
+  },
+  {
+    "id": 6,
+    "author": "New Artist 5",
+    "name": "Digital Creation",
+    "year": 2022,
+    "technique": "digital art",
+    "dimensions": "1200x800 pixels"
+  },
+  {
+    "id": 7,
+    "author": "New Artist 6",
+    "name": "Sculpted Beauty",
+    "year": 2017,
+    "technique": "sculpture",
+    "dimensions": "40x40x60 cm"
+  },
+  {
+    "id": 8,
+    "author": "New Artist 7",
+    "name": "Photographic Excellence",
+    "year": 2021,
+    "technique": "photography",
+    "dimensions": "100x150 cm"
+  },
+  {
+    "id": 9,
+    "author": "New Artist 8",
+    "name": "Watercolor Wonder",
+    "year": 2018,
+    "technique": "watercolor on paper",
+    "dimensions": "70x100 cm"
+  },
+  {
+    "id": 10,
+    "author": "New Artist 9",
+    "name": "Abstract Creation",
+    "year": 2016,
+    "technique": "acrylic on canvas",
+    "dimensions": "90x120 cm"
+  },
+  {
+    "id": 11,
+    "author": "New Artist 10",
+    "name": "Vibrant Colors",
+    "year": 2023,
+    "technique": "oil on canvas",
+    "dimensions": "75x100 cm"
+  },
+  {
+    "id": 12,
+    "author": "New Artist 11",
+    "name": "Watercolor Dream",
+    "year": 2014,
+    "technique": "watercolor on paper",
+    "dimensions": "55x70 cm"
+  },
+  {
+    "id": 13,
+    "author": "New Artist 12",
+    "name": "Acrylic Beauty",
+    "year": 2019,
+    "technique": "acrylic on canvas",
+    "dimensions": "80x110 cm"
+  },
+  {
+    "id": 14,
+    "author": "New Artist 13",
+    "name": "Digital Masterpiece",
+    "year": 2022,
+    "technique": "digital art",
+    "dimensions": "1600x900 pixels"
+  },
+  {
+    "id": 15,
+    "author": "New Artist 14",
+    "name": "Sculpted Art",
+    "year": 2017,
+    "technique": "sculpture",
+    "dimensions": "50x50x70 cm"
+  },
+  {
+    "id": 16,
+    "author": "New Artist 15",
+    "name": "Photographic Beauty",
+    "year": 2021,
+    "technique": "photography",
+    "dimensions": "120x180 cm"
+  },
+  {
+    "id": 17,
+    "author": "New Artist 16",
+    "name": "Watercolor Landscape",
+    "year": 2018,
+    "technique": "watercolor on paper",
+    "dimensions": "80x120 cm"
+  },
+  {
+    "id": 18,
+    "author": "New Artist 17",
+    "name": "Abstract Expression",
+    "year": 2016,
+    "technique": "acrylic on canvas",
+    "dimensions": "100x130 cm"
+  },
+  {
+    "id": 19,
+    "author": "New Artist 18",
+    "name": "Oil on Canvas",
+    "year": 2015,
+    "technique": "oil on canvas",
+    "dimensions": "90x120 cm"
+  },
+  {
+    "id": 20,
+    "author": "New Artist 19",
+    "name": "Acrylic Creation",
+    "year": 2020,
+    "technique": "acrylic on canvas",
+    "dimensions": "85x110 cm"
+  },
+  {
+    "id": 21,
+    "author": "New Artist 20",
+    "name": "Vivid Colors",
+    "year": 2023,
+    "technique": "acrylic on canvas",
+    "dimensions": "70x90 cm"
+  },
+  {
+    "id": 22,
+    "author": "New Artist 21",
+    "name": "Watercolor Beauty",
+    "year": 2015,
+    "technique": "watercolor on paper",
+    "dimensions": "50x70 cm"
+  },
+  {
+    "id": 23,
+    "author": "New Artist 22",
+    "name": "Oil on Canvas",
+    "year": 2020,
+    "technique": "oil on canvas",
+    "dimensions": "80x100 cm"
+  },
+  {
+    "id": 24,
+    "author": "New Artist 23",
+    "name": "Mixed Media Art",
+    "year": 2019,
+    "technique": "mixed media on wood",
+    "dimensions": "60x80 cm"
+  },
+  {
+    "id": 25,
+    "author": "New Artist 24",
+    "name": "Digital Creation",
+    "year": 2022,
+    "technique": "digital art",
+    "dimensions": "1200x800 pixels"
+  },
+  {
+    "id": 26,
+    "author": "New Artist 25",
+    "name": "Sculpted Beauty",
+    "year": 2017,
+    "technique": "sculpture",
+    "dimensions": "40x40x60 cm"
+  },
+  {
+    "id": 27,
+    "author": "New Artist 26",
+    "name": "Photographic Excellence",
+    "year": 2021,
+    "technique": "photography",
+    "dimensions": "100x150 cm"
+  },
+  {
+    "id": 28,
+    "author": "New Artist 27",
+    "name": "Watercolor Wonder",
+    "year": 2018,
+    "technique": "watercolor on paper",
+    "dimensions": "70x100 cm"
+  },
+  {
+    "id": 29,
+    "author": "New Artist 28",
+    "name": "Acrylic Creation",
+    "year": 2016,
+    "technique": "acrylic on canvas",
+    "dimensions": "90x120 cm"
+  },
+  {
+    "id": 30,
+    "author": "New Artist 29",
+    "name": "Vibrant Colors",
+    "year": 2023,
+    "technique": "oil on canvas",
+    "dimensions": "75x100 cm"
+  },
+  {
+    "id": 31,
+    "author": "New Artist 30",
+    "name": "Watercolor Dream",
+    "year": 2014,
+    "technique": "watercolor on paper",
+    "dimensions": "55x70 cm"
+  },
+  {
+    "id": 32,
+    "author": "New Artist 31",
+    "name": "Acrylic Beauty",
+    "year": 2019,
+    "technique": "acrylic on canvas",
+    "dimensions": "80x110 cm"
+  },
+  {
+    "id": 33,
+    "author": "New Artist 32",
+    "name": "Digital Masterpiece",
+    "year": 2022,
+    "technique": "digital art",
+    "dimensions": "1600x900 pixels"
+  },
+  {
+    "id": 34,
+    "author": "New Artist 33",
+    "name": "Sculpted Art",
+    "year": 2017,
+    "technique": "sculpture",
+    "dimensions": "50x50x70 cm"
+  },
+  {
+    "id": 35,
+    "author": "New Artist 34",
+    "name": "Photographic Beauty",
+    "year": 2021,
+    "technique": "photography",
+    "dimensions": "120x180 cm"
+  },
+  {
+    "id": 36,
+    "author": "New Artist 35",
+    "name": "Watercolor Landscape",
+    "year": 2018,
+    "technique": "watercolor on paper",
+    "dimensions": "80x120 cm"
+  },
+  {
+    "id": 37,
+    "author": "New Artist 36",
+    "name": "Abstract Expression",
+    "year": 2016,
+    "technique": "acrylic on canvas",
+    "dimensions": "100x130 cm"
+  },
+  {
+    "id": 38,
+    "author": "New Artist 37",
+    "name": "Oil on Canvas",
+    "year": 2015,
+    "technique": "oil on canvas",
+    "dimensions": "90x120 cm"
+  },
+  {
+    "id": 39,
+    "author": "New Artist 38",
+    "name": "Acrylic Creation",
+    "year": 2020,
+    "technique": "acrylic on canvas",
+    "dimensions": "85x110 cm"
+  },
+  {
+    "id": 40,
+    "author": "New Artist 39",
+    "name": "Vivid Colors",
+    "year": 2023,
+    "technique": "acrylic on canvas",
+    "dimensions": "70x90 cm"
+  },
+  {
+    "id": 41,
+    "author": "New Artist 40",
+    "name": "Watercolor Beauty",
+    "year": 2015,
+    "technique": "watercolor on paper",
+    "dimensions": "50x70 cm"
+  },
+  {
+    "id": 42,
+    "author": "New Artist 41",
+    "name": "Oil on Canvas",
+    "year": 2020,
+    "technique": "oil on canvas",
+    "dimensions": "80x100 cm"
+  },
+  {
+    "id": 43,
+    "author": "New Artist 42",
+    "name": "Mixed Media Masterpiece",
+    "year": 2022,
+    "technique": "mixed media on canvas",
+    "dimensions": "100x120 cm"
+  }
+]
