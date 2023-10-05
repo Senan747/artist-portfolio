@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import data from "../../db.json";
+import { useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Art() {
-  return (
-    <div>
-        senan
-    </div>
-  )
+  const { art } = useSelector((state) => state.art);
+  let location = useLocation();
+  console.log(art);
+  return <div>
+    {art.name}
+    {art.author}
+    
+    </div>;
 }
 
-export default Art
+export default Art;

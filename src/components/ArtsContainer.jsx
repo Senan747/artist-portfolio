@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { BrowserRouter } from "react-router-dom";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import ForMore from "./ForMore";
 import data from "../../db.json";
+import { setArt } from "../stores/art"
+import { useDispatch } from "react-redux";
 
 function Arts() {
   const imageElements = [];
@@ -11,8 +12,8 @@ function Arts() {
   const [photoNumber, setPhotoNumber] = useState();
   let location = useLocation();
   let navigate = useNavigate();
-  let params = useParams();
-  const { name } = useParams()
+  let dispatch = useDispatch();
+
   let count;
   if (location.pathname === "/resmler") {
     count = 43;
@@ -22,8 +23,8 @@ function Arts() {
   console.log(location.pathname);
 
   const handleClick = (newData) => {
-      
-      // navigate("/art/:name")
+    dispatch(setArt(newData))
+    navigate(`/art/${newData.name}`)
   }
 
   for (let i = 1; i < count; i++) {
@@ -40,7 +41,7 @@ function Arts() {
         <img src={`/intiqam_${i}_big.webp`} alt="" />
         {photoNumber === i && (
           <div>
-            <h2 onClick={handleClick(data[i])}>{data[i].author}</h2>
+            <h2 onClick={() => handleClick(data[i])}>{data[i].author}</h2>
           </div>
         )}
       </div>
