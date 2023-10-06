@@ -20,6 +20,10 @@ export default {
           from: { top: "384px" },
           to: { top: "0px" },
         },
+        height: {
+          from: {height: "0px"},
+          to: {height: "100%"}
+        },
         fadeIn: {
           "0%": {
             transform: "translate(-1px, -1px)",
@@ -33,6 +37,7 @@ export default {
         pulse: "pulse 0.5s linear",
         wiggle: "wiggle 10s linear",
         fadeIn: "fadeIn 0.25s infinite ease-in-out",
+        height: "height 0.7s ease-in-out"
       },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],

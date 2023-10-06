@@ -29,9 +29,9 @@ function ContactUs() {
   };
 
   return (
-    <div className="min-h-[100vh] flex items-center justify-center">
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col border-4 rounded-[20px] border-gega-white p-20">
-        <label>Name</label>
+    <div className="bg-gega-white flex items-center justify-center">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col border-4 rounded-[20px]    border-gega-white p-20">
+        <label className="text-gega-red">Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>
         <input type="email" name="user_email" />

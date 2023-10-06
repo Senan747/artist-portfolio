@@ -3,7 +3,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useLocation, useNavigate } from "react-router-dom";
 import ForMore from "./ForMore";
 import data from "../../db.json";
-import { setArt } from "../stores/art"
+import { setArt } from "../stores/art";
 import { useDispatch } from "react-redux";
 
 function Arts() {
@@ -23,25 +23,31 @@ function Arts() {
   console.log(location.pathname);
 
   const handleClick = (newData) => {
-    dispatch(setArt(newData))
-    navigate(`/art/${newData.name}`)
-  }
+    dispatch(setArt(newData));
+    navigate(`/art/${newData.name}`);
+  };
 
   for (let i = 1; i < count; i++) {
     imageElements.push(
       <div
         key={i}
-        className="m-5"
+        className="m-5 relative cursor-pointer"
         onMouseEnter={() => {
           setShow(true);
           setPhotoNumber(i);
         }}
-        onMouseLeave={() => setShow(false)}
+        onMouseLeave={() => setPhotoNumber("")}
+        onClick={() => handleClick(data[i])}
       >
-        <img src={`/intiqam_${i}_big.webp`} alt="" />
+        <img src={`/intiqam_${i}_big.webp`} alt="" className="relative" />
         {photoNumber === i && (
-          <div>
-            <h2 onClick={() => handleClick(data[i])}>{data[i].author}</h2>
+          <div className="absolute animate-height w-full h-full opacity-[0.9] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gega-white flex flex-col items-center justify-center">
+            <h2 className="text-center text-gega-black font-semibold">
+              {data[i].author}
+            </h2>
+            <h2 className="text-center text-gega-black font-semibold">
+              {data[i].name}
+            </h2>
           </div>
         )}
       </div>

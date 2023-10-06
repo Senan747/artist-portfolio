@@ -1,346 +1,346 @@
 [
   {
-    "id": 1,
-    "author": "Mountains",
-    "name": "Mountain Landscape",
-    "year": 2008,
-    "technique": "oil on canvas",
-    "dimensions": "60x80 cm"
+      "id": 1,
+      "author": "Intiqam Ağayev",
+      "name": "Dağlar",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x90sm"
   },
   {
-    "id": 2,
-    "author": "New",
-    "name": "Abstract Artwork",
-    "year": 2023,
-    "technique": "acrylic on canvas",
-    "dimensions": "70x90 cm"
+      "id": 2,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron",
+      "year": 2007,
+      "technique": "kətan yağlı boya",
+      "dimensions": "65x45sm"
   },
   {
-    "id": 3,
-    "author": "New Artist 2",
-    "name": "Watercolor Beauty",
-    "year": 2015,
-    "technique": "watercolor on paper",
-    "dimensions": "50x70 cm"
+      "id": 3,
+      "author": "Intiqam Ağayev",
+      "name": "İçəri Şəhər",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x75sm"
   },
   {
-    "id": 4,
-    "author": "New Artist 3",
-    "name": "Colorful Canvas",
-    "year": 2020,
-    "technique": "oil on canvas",
-    "dimensions": "80x100 cm"
+      "id": 4,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron motivi",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x100sm"
   },
   {
-    "id": 5,
-    "author": "New Artist 4",
-    "name": "Mixed Media Art",
-    "year": 2019,
-    "technique": "mixed media on wood",
-    "dimensions": "60x80 cm"
+      "id": 5,
+      "author": "Intiqam Ağayev",
+      "name": "Liman",
+      "year": 2007,
+      "technique": "kətan yağlı boya",
+      "dimensions": "30x50sm"
   },
   {
-    "id": 6,
-    "author": "New Artist 5",
-    "name": "Digital Creation",
-    "year": 2022,
-    "technique": "digital art",
-    "dimensions": "1200x800 pixels"
+      "id": 6,
+      "author": "Intiqam Ağayev",
+      "name": "Bakı",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x90sm"
   },
   {
-    "id": 7,
-    "author": "New Artist 6",
-    "name": "Sculpted Beauty",
-    "year": 2017,
-    "technique": "sculpture",
-    "dimensions": "40x40x60 cm"
+      "id": 7,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "sağ hissə",
+      "technique": "2009 kətan yağlı boya",
+      "dimensions": "50x100sm"
   },
   {
-    "id": 8,
-    "author": "New Artist 7",
-    "name": "Photographic Excellence",
-    "year": 2021,
-    "technique": "photography",
-    "dimensions": "100x150 cm"
+      "id": 8,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "mərkəz hissə",
+      "technique": "2009 kətan yağlı boya",
+      "dimensions": "60x70sm"
   },
   {
-    "id": 9,
-    "author": "New Artist 8",
-    "name": "Watercolor Wonder",
-    "year": 2018,
-    "technique": "watercolor on paper",
-    "dimensions": "70x100 cm"
+      "id": 9,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "50x100sm"
   },
   {
-    "id": 10,
-    "author": "New Artist 9",
-    "name": "Abstract Creation",
-    "year": 2016,
-    "technique": "acrylic on canvas",
-    "dimensions": "90x120 cm"
+      "id": 10,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "2009",
+      "technique": " kətan yağlı boya",
+      "dimensions": "50x100sm"
+      
   },
   {
-    "id": 11,
-    "author": "New Artist 10",
-    "name": "Vibrant Colors",
-    "year": 2023,
-    "technique": "oil on canvas",
-    "dimensions": "75x100 cm"
+      "id": 11,
+      "author": "Intiqam Ağayev",
+      "name": "İlk uçuş",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x45sm"
   },
   {
-    "id": 12,
-    "author": "New Artist 11",
-    "name": "Watercolor Dream",
-    "year": 2014,
-    "technique": "watercolor on paper",
-    "dimensions": "55x70 cm"
+      "id": 12,
+      "author": "Intiqam Ağayev",
+      "name": "Şıltaq uşaq",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x45sm"
   },
   {
-    "id": 13,
-    "author": "New Artist 12",
-    "name": "Acrylic Beauty",
-    "year": 2019,
-    "technique": "acrylic on canvas",
-    "dimensions": "80x110 cm"
+      "id": 13,
+      "author": "Intiqam Ağayev",
+      "name": "Şehirli sular",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "65x110sm"
   },
   {
-    "id": 14,
-    "author": "New Artist 13",
-    "name": "Digital Masterpiece",
-    "year": 2022,
-    "technique": "digital art",
-    "dimensions": "1600x900 pixels"
+      "id": 14,
+      "author": "Intiqam Ağayev",
+      "name": "Dənizdən Asimana",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x140sm"
   },
   {
-    "id": 15,
-    "author": "New Artist 14",
-    "name": "Sculpted Art",
-    "year": 2017,
-    "technique": "sculpture",
-    "dimensions": "50x50x70 cm"
+      "id": 15,
+      "author": "Intiqam Ağayev",
+      "name": "Tənha",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x60sm"
   },
   {
-    "id": 16,
-    "author": "New Artist 15",
-    "name": "Photographic Beauty",
-    "year": 2021,
-    "technique": "photography",
-    "dimensions": "120x180 cm"
+      "id": 16,
+      "author": "Intiqam Ağayev",
+      "name": "Tənha",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "50x100sm"
   },
   {
-    "id": 17,
-    "author": "New Artist 16",
-    "name": "Watercolor Landscape",
-    "year": 2018,
-    "technique": "watercolor on paper",
-    "dimensions": "80x120 cm"
+      "id": 17,
+      "author": "Intiqam Ağayev",
+      "name": "İntizar",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x140sm"
   },
   {
-    "id": 18,
-    "author": "New Artist 17",
-    "name": "Abstract Expression",
-    "year": 2016,
-    "technique": "acrylic on canvas",
-    "dimensions": "100x130 cm"
+      "id": 18,
+      "author": "Intiqam Ağayev",
+      "name": "Xəzərdə qürüb",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x90sm"
   },
   {
-    "id": 19,
-    "author": "New Artist 18",
-    "name": "Oil on Canvas",
-    "year": 2015,
-    "technique": "oil on canvas",
-    "dimensions": "90x120 cm"
+      "id": 19,
+      "author": "Intiqam Ağayev",
+      "name": "Düşüncə",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x120sm"
   },
   {
-    "id": 20,
-    "author": "New Artist 19",
-    "name": "Acrylic Creation",
-    "year": 2020,
-    "technique": "acrylic on canvas",
-    "dimensions": "85x110 cm"
+      "id": 20,
+      "author": "Intiqam Ağayev",
+      "name": "Ümüd",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x45sm"
   },
   {
-    "id": 21,
-    "author": "New Artist 20",
-    "name": "Vivid Colors",
-    "year": 2023,
-    "technique": "acrylic on canvas",
-    "dimensions": "70x90 cm"
+      "id": 21,
+      "author": "Intiqam Ağayev",
+      "name": "Xoşbəxt ailə",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "85x50sm"
   },
   {
-    "id": 22,
-    "author": "New Artist 21",
-    "name": "Watercolor Beauty",
-    "year": 2015,
-    "technique": "watercolor on paper",
-    "dimensions": "50x70 cm"
+      "id": 22,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x60sm"
   },
   {
-    "id": 23,
-    "author": "New Artist 22",
-    "name": "Oil on Canvas",
-    "year": 2020,
-    "technique": "oil on canvas",
-    "dimensions": "80x100 cm"
+      "id": 23,
+      "author": "Intiqam Ağayev",
+      "name": "Yorğunluq",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "30x45sm"
   },
   {
-    "id": 24,
-    "author": "New Artist 23",
-    "name": "Mixed Media Art",
-    "year": 2019,
-    "technique": "mixed media on wood",
-    "dimensions": "60x80 cm"
+      "id": 24,
+      "author": "Intiqam Ağayev",
+      "name": "İcəri Şəhər",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "98x140sm"
   },
   {
-    "id": 25,
-    "author": "New Artist 24",
-    "name": "Digital Creation",
-    "year": 2022,
-    "technique": "digital art",
-    "dimensions": "1200x800 pixels"
+      "id": 25,
+      "author": "Intiqam Ağayev",
+      "name": "Desgah",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "74x119sm"
   },
   {
-    "id": 26,
-    "author": "New Artist 25",
-    "name": "Sculpted Beauty",
-    "year": 2017,
-    "technique": "sculpture",
-    "dimensions": "40x40x60 cm"
+      "id": 26,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
   },
   {
-    "id": 27,
-    "author": "New Artist 26",
-    "name": "Photographic Excellence",
-    "year": 2021,
-    "technique": "photography",
-    "dimensions": "100x150 cm"
+      "id": 27,
+      "author": "Intiqam Ağayev",
+      "name": "İceri Şəhər",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
   },
   {
-    "id": 28,
-    "author": "New Artist 27",
-    "name": "Watercolor Wonder",
-    "year": 2018,
-    "technique": "watercolor on paper",
-    "dimensions": "70x100 cm"
+      "id": 28,
+      "author": "Intiqam Ağayev",
+      "name": "İceri Şəhərin gecə nağılı",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x100sm"
   },
   {
-    "id": 29,
-    "author": "New Artist 28",
-    "name": "Acrylic Creation",
-    "year": 2016,
-    "technique": "acrylic on canvas",
-    "dimensions": "90x120 cm"
+      "id": 29,
+      "author": "Intiqam Ağayev",
+      "name": "İpək yolu",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "122x98sm"
   },
   {
-    "id": 30,
-    "author": "New Artist 29",
-    "name": "Vibrant Colors",
-    "year": 2023,
-    "technique": "oil on canvas",
-    "dimensions": "75x100 cm"
+      "id": 30,
+      "author": "Intiqam Ağayev",
+      "name": "Dünya muğamda",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "87x93sm"
   },
   {
-    "id": 31,
-    "author": "New Artist 30",
-    "name": "Watercolor Dream",
-    "year": 2014,
-    "technique": "watercolor on paper",
-    "dimensions": "55x70 cm"
+      "id": 31,
+      "author": "Intiqam Ağayev",
+      "name": "Natürmort",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x60sm"
   },
   {
-    "id": 32,
-    "author": "New Artist 31",
-    "name": "Acrylic Beauty",
-    "year": 2019,
-    "technique": "acrylic on canvas",
-    "dimensions": "80x110 cm"
+      "id": 32,
+      "author": "Intiqam Ağayev",
+      "name": "Neftçi",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "75x145sm"
   },
   {
-    "id": 33,
-    "author": "New Artist 32",
-    "name": "Digital Masterpiece",
-    "year": 2022,
-    "technique": "digital art",
-    "dimensions": "1600x900 pixels"
+      "id": 33,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "140x98sm"
   },
   {
-    "id": 34,
-    "author": "New Artist 33",
-    "name": "Sculpted Art",
-    "year": 2017,
-    "technique": "sculpture",
-    "dimensions": "50x50x70 cm"
+      "id": 34,
+      "author": "Intiqam Ağayev",
+      "name": "Məhəllə quşbazları",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
   },
   {
-    "id": 35,
-    "author": "New Artist 34",
-    "name": "Photographic Beauty",
-    "year": 2021,
-    "technique": "photography",
-    "dimensions": "120x180 cm"
+      "id": 35,
+      "author": "Intiqam Ağayev",
+      "name": "Şanapipik əfsanəsi",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x60sm"
   },
   {
-    "id": 36,
-    "author": "New Artist 35",
-    "name": "Watercolor Landscape",
-    "year": 2018,
-    "technique": "watercolor on paper",
-    "dimensions": "80x120 cm"
+      "id": 36,
+      "author": "Intiqam Ağayev",
+      "name": "Sonun əvvəli",
+      "year": 2009,
+      "technique": "kətan yağlı boya"
   },
   {
-    "id": 37,
-    "author": "New Artist 36",
-    "name": "Abstract Expression",
-    "year": 2016,
-    "technique": "acrylic on canvas",
-    "dimensions": "100x130 cm"
+      "id": 37,
+      "author": "Intiqam Ağayev",
+      "name": "Mənim Sumqayıtım",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "98x145sm"
   },
   {
-    "id": 38,
-    "author": "New Artist 37",
-    "name": "Oil on Canvas",
-    "year": 2015,
-    "technique": "oil on canvas",
-    "dimensions": "90x120 cm"
+      "id": 38,
+      "author": "Intiqam Ağayev",
+      "name": "Taleh",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
   },
   {
-    "id": 39,
-    "author": "New Artist 38",
-    "name": "Acrylic Creation",
-    "year": 2020,
-    "technique": "acrylic on canvas",
-    "dimensions": "85x110 cm"
+      "id": 39,
+      "author": "Intiqam Ağayev",
+      "name": "Tut ağacı",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x80sm"
   },
   {
-    "id": 40,
-    "author": "New Artist 39",
-    "name": "Vivid Colors",
-    "year": 2023,
-    "technique": "acrylic on canvas",
-    "dimensions": "70x90 cm"
+      "id": 40,
+      "author": "Intiqam Ağayev",
+      "name": "Vaqifin dünyası",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "110x79sm"
   },
   {
-    "id": 41,
-    "author": "New Artist 40",
-    "name": "Watercolor Beauty",
-    "year": 2015,
-    "technique": "watercolor on paper",
-    "dimensions": "50x70 cm"
+      "id": 41,
+      "author": "Intiqam Ağayev",
+      "name": "Xəzərin mehi",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "93x160sm"
   },
   {
-    "id": 42,
-    "author": "New Artist 41",
-    "name": "Oil on Canvas",
-    "year": 2020,
-    "technique": "oil on canvas",
-    "dimensions": "80x100 cm"
+      "id": 42,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
   },
   {
-    "id": 43,
-    "author": "New Artist 42",
-    "name": "Mixed Media Masterpiece",
-    "year": 2022,
-    "technique": "mixed media on canvas",
-    "dimensions": "100x120 cm"
+      "id": 43,
+      "author": "Intiqam Ağayev",
+      "name": "Yuxu",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "75x110sm"
   }
 ]
