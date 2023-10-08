@@ -1,16 +1,19 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
 import Buy from "../components/Buy";
+import { openShowBuy } from "../stores/buy";
+import { useDispatch } from "react-redux";
 
 function Art() {
   const { art } = useSelector((state) => state.art);
-  let location = useLocation();
-  const [show, setShow] = useState(false);
-
-  console.log(art);
+  const { ShowBuy } = useSelector((state) => state.buy)
+  const dispatch = useDispatch();
+ 
+  const handleClick = () => {
+    dispatch(openShowBuy())
+  }
+  console.log(ShowBuy)
   return (
     <div className="h-screen">
       <Navbar />
@@ -34,17 +37,18 @@ function Art() {
 
           <button
             class="px-9 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
-            onClick={() => setShow(true)}
+            onClick={handleClick}
           >
             Al
           </button>
 
-          {show && (
-            <div className=" fixed top-0 left-0 w-[100vw] h-[100vh] bg-black opacity-50 z-10 flex items-center justify-center">
-              <div className="absolute z-20 ">
-                <Buy />
-              </div>
+          {ShowBuy && (
+            <div className="">
+            <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-10" />
+            <div className="fixed top-0 left-0 w-screen h-screen z-20 flex items-center justify-center">
+              <Buy />
             </div>
+          </div>
           )}
         </div>
       </div>

@@ -8,7 +8,6 @@ import { useDispatch } from "react-redux";
 
 function Arts() {
   const imageElements = [];
-  const [show, setShow] = useState(false);
   const [photoNumber, setPhotoNumber] = useState();
   let location = useLocation();
   let navigate = useNavigate();
@@ -20,7 +19,7 @@ function Arts() {
   } else {
     count = 13;
   }
-  console.log(location.pathname);
+
 
   const handleClick = (newData) => {
     dispatch(setArt(newData));
@@ -33,7 +32,7 @@ function Arts() {
         key={i}
         className="m-5 relative cursor-pointer"
         onMouseEnter={() => {
-          setShow(true);
+
           setPhotoNumber(i);
         }}
         onMouseLeave={() => setPhotoNumber("")}
