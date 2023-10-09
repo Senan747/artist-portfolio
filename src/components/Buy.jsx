@@ -11,7 +11,7 @@ function ContactUs() {
   let navigate = useNavigate();
   let dispatch = useDispatch();
 
-  const message = `Mən bu şəkili istəyirəm ${art.name}`;
+  const message = `Əsərin adı: ${art.name}.`;
 
   useEffect(() => {
     if (art.name === undefined) {
@@ -20,8 +20,8 @@ function ContactUs() {
   }, [1000]);
 
   const handleClick = () => {
-    dispatch(closeShowBuy())
-  }
+    dispatch(closeShowBuy());
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,12 +44,15 @@ function ContactUs() {
   };
 
   return (
-    <div className="bg-gega-white flex items-center justify-center border-4 rounded-lg p-8 min-w-[400px] relative">
-      <div className="absolute -top-4 -right-5 rounded-[100%] w-10 h-10 bg-gega-dark-red flex items-center justify-center cursor-pointer" onClick={handleClick}>
+    <div className="bg-gega-white flex items-center justify-center flex-col gap-4 border-4 rounded-lg p-8 min-w-[400px] relative">
+      <div
+        className="absolute -top-4 -right-5 rounded-[100%] w-10 h-10 bg-gega-dark-red flex items-center justify-center cursor-pointer"
+        onClick={handleClick}
+      >
         <p className="text-gega-white">X</p>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
-        <label className="text-gega-red">Name</label>
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3 w-full">
+        <label className="text-gega-red">Ad</label>
         <input
           type="text"
           id="user_name"
@@ -57,7 +60,7 @@ function ContactUs() {
           className="border rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring focus:border-blue-300"
           required
         />
-        <label>Email</label>
+        <label className="text-gega-red">Mailinizi qeyd edin</label>
         <input
           required
           type="email"
@@ -65,21 +68,26 @@ function ContactUs() {
           name="user_email"
           className="border rounded-md px-3 py-2 pr-20 mt-1 focus:outline-none focus:ring focus:border-blue-300"
         />
-        <label className="text-gega-red">Message</label>
+        <label className="text-gega-red">Mesajınızı qeyd edin</label>
         <textarea
           required
           id="message"
           name="message"
           rows="4"
           className="border rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring focus:border-blue-300"
-        ></textarea>
+        >{message}</textarea>
         <button
           type="submit"
-          className="bg-blue-500 text-white rounded-md py-2 px-4 hover:bg-blue-600 transition duration-300 ease-in-out"
+          className="bg-gega-red text-white rounded-md py-2 px-4"
         >
-          Send
+          Gönder
         </button>
       </form>
+      <h1>Və ya</h1>
+
+      <button className="w-full border-2 border-gega-red text-gega-red rounded-md py-2 px-4 hover:bg-gega-red hover:text-gega-white transition duration-300 ease-in-out">
+        <a href="tel:+994507832995">Zəng edin</a>
+      </button>
     </div>
   );
 }

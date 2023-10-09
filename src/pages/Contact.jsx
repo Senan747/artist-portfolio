@@ -4,7 +4,7 @@ import ContactContainer from "../components/ContactContainer";
 
 function Contact() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <ContactContainer />
     </div>
