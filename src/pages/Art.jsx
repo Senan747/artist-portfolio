@@ -16,7 +16,7 @@ function Art() {
   console.log(ShowBuy)
   return (
     <div className="h-screen">
-      <Navbar />
+
       <div class="mt-20 flex items-center flex-row justify-around">
         <div class="mb-4">
           <img

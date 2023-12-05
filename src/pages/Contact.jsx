@@ -5,7 +5,6 @@ import ContactContainer from "../components/ContactContainer";
 function Contact() {
   return (
     <div className="">
-      <Navbar />
       <ContactContainer />
     </div>
   );
