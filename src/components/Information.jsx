@@ -2,7 +2,7 @@ import React from "react";
 
 function Information() {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <div className="w-full flex flex-col items-center justify-center py-20">
       <div className="w-[1300px] h-[1px] bg-gega-black text-center"></div>
       <div className="w-[1300px] flex flex-row justify-between items-start mt-10">
         <div className="font-Cairo">

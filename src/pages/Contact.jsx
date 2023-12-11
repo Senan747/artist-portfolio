@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ContactContainer from "../components/ContactContainer";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className="">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}  className="">
       <ContactContainer />
-    </div>
+    </motion.div>
   );
 }
 

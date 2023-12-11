@@ -9,7 +9,8 @@ import Footer from "../components/Footer";
 
 function Pages() {
   return (
-    <div>
+    <>
+      {" "}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +20,7 @@ function Pages() {
         <Route path="/haqqında" element={<About />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

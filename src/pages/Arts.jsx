@@ -53,7 +53,7 @@ function Arts() {
   }
 
   return (
-    <div id="#arts" className="my-20 w-[1400px]">
+    <div id="#arts" className="pt-32">
       <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">
         Əsərlər
       </h1>
@@ -69,7 +69,6 @@ function Arts() {
           <Masonry>{imageElements}</Masonry>
         </ResponsiveMasonry>
       </motion.div>
-      <ForMore />
     </div>
   );
 }

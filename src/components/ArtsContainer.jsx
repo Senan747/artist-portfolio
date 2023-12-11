@@ -20,6 +20,7 @@ function Arts() {
     count = 13;
   }
 
+  console.log(location.pathname)
 
   const handleClick = (newData) => {
     dispatch(setArt(newData));
@@ -32,7 +33,6 @@ function Arts() {
         key={i}
         className="m-5 relative cursor-pointer"
         onMouseEnter={() => {
-
           setPhotoNumber(i);
         }}
         onMouseLeave={() => setPhotoNumber("")}
@@ -54,7 +54,7 @@ function Arts() {
   }
 
   return (
-    <div id="#arts" className="my-20 w-[1400px]">
+    <div id="#arts" className="my-20 w-full pt-28">
       <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">
         Əsərlər
       </h1>
@@ -66,7 +66,7 @@ function Arts() {
           <Masonry>{imageElements}</Masonry>
         </ResponsiveMasonry>
       </div>
-      <ForMore />
+      {location.pathname != "/resmler" && <ForMore />}
     </div>
   );
 }

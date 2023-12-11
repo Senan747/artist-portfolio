@@ -25,7 +25,7 @@ function ContactContainer() {
       );
   };
   return (
-    <div className="max-h-screen flex items-center justify-around flex-row mt-[80px]">
+    <div className="max-h-screen flex items-center justify-around flex-row mt-[80px] py-20 ">
       <div className="w-[500px]">
         <form
           ref={form}
