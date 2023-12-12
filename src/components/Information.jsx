@@ -3,13 +3,13 @@ import React from "react";
 function Information() {
   return (
     <div className="w-full flex flex-col items-center justify-center py-20">
-      <div className="w-[1300px] h-[1px] bg-gega-black text-center"></div>
-      <div className="w-[1300px] flex flex-row justify-between items-start mt-10">
+      <div className="w-[90%] h-[1px] bg-gega-black text-center"></div>
+      <div className="w-[90%] flex flex-row justify-between items-start mt-10 gap-5">
         <div className="font-Cairo">
-          <p className="text-3xl">Kariyera</p>
-          <p className="text-2xl">1998 - Davam edir</p>
+          <p className="text-3xl max-md:text-xl">Kariyera</p>
+          <p className="text-2xl max-md:text-lg">1998 - Davam edir</p>
         </div>
-        <div className="flex flex-col max-w-[700px]">
+        <div className="flex flex-col w-[70%]">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             nesciunt deserunt modi sed doloremque inventore, explicabo quod est
@@ -20,8 +20,8 @@ function Information() {
           </p>
           <div>
             <div></div>
-            <div className="w-[400px] h-auto">
-                <img src="/sergi.jpg" alt="" />
+            <div className="w-[60%] h-auto">
+              <img src="/sergi.jpg" alt="" className="w-full" />
             </div>
             <div></div>
           </div>

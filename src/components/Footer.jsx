@@ -65,8 +65,8 @@ export default function Footer() {
         <Box mt={5}>
           <Typography variant="body2" color="text.secondary" align="center">
             {"Copyright © "}
-            <Link color="inherit" href="https://your-website.com/">
-              Your Website
+            <Link color="inherit" href="https://my-portfolio-2-flax.vercel.app/">
+              Senan Memmedov
             </Link>{" "}
             {new Date().getFullYear()}
             {"."}
