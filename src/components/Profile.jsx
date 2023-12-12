@@ -2,23 +2,26 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="w-full flex items-center justify-center my-10 pt-28">
-      <div className="w-[1200px] bg-gega-green flex flex-row justify-between p-20">
+    <div className="w-full flex items-center justify-center flex-wrap pt-28">
+      <div className="bg-gega-green flex flex-row items-center max-md:flex-col max-md:gap-3 justify-between p-10 max-md:p-5 m-20">
         <div className="bg-gega-white rounded-[30px] p-10">
           <div className="pb-5 flex flex-row items-center">
             <img
               src="/artist.jpg"
               alt=""
-              className="rounded-50 w-[50px] h-[50px] mr-3"
+              className="rounded-50 w-[50px] h-[50px] mr-3 max-md:w-[30px] max-md:h-[30px]"
             />
-            <p className="font-semibold text-lg">Rəssam</p>
+            <p className="font-semibold text-lg max-md:hidden">Rəssam</p>
+            <p className="font-semibold hidden text-base max-md:block">
+              İntiqam Ağayev
+            </p>
           </div>
-          <div className="w-[400px] ">
-            <img src="/profile.webp" alt="" className="w-full h-full" />
-          </div>{" "}
+          <div className="w-[300px] max-md:w-[200px]">
+            <img src="/profile.webp" alt="" className="w-full h-auto" />
+          </div>
         </div>
         <div className="ml-10">
-          <h1 className="font-Pacifico text-7xl text-gega-white pb-10">
+          <h1 className="font-Pacifico text-5xl text-gega-white pb-10 max-md:hidden">
             İntiqam Ağayev
           </h1>
           <p className="text-gega-white">
@@ -29,14 +32,6 @@ function Profile() {
             laudantium dolorum voluptate corporis modi nulla necessitatibus
             adipisci beatae nam, quidem sunt obcaecati facilis maiores. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Quis maxime
-            voluptates eaque totam officia maiores repellendus autem. Quis autem
-            explicabo vero quisquam deleniti dignissimos quia neque eum
-            praesentium laboriosam, adipisci, illum harum! Velit a
-            necessitatibus atque doloremque, maxime ipsum tempore aliquam
-            placeat repellendus quae dolorem suscipit eos autem odit quisquam?
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-            maiores cumque officiis recusandae sed, neque doloribus odit
-            deserunt quam sit.
           </p>
         </div>
       </div>

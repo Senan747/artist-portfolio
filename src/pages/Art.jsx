@@ -7,20 +7,19 @@ import { useDispatch } from "react-redux";
 
 function Art() {
   const { art } = useSelector((state) => state.art);
-  const { ShowBuy } = useSelector((state) => state.buy)
+  const { ShowBuy } = useSelector((state) => state.buy);
   const dispatch = useDispatch();
- 
-  const handleClick = () => {
-    dispatch(openShowBuy())
-  }
-  console.log(ShowBuy)
-  return (
-    <div className="h-screen">
 
-      <div class="mt-20 flex items-center flex-row justify-around">
+  const handleClick = () => {
+    dispatch(openShowBuy());
+  };
+  console.log(ShowBuy);
+  return (
+    <div className="pt-48 max-md:pt-24 pb-10">
+      <div class="flex items-center flex-row max-md:flex-col justify-around">
         <div class="mb-4">
           <img
-            src={`/intiqam_${art.id}_big.webp`}
+            src={`/intiqam_${art.id - 1}_big.webp`}
             alt=""
             class="max-w-md rounded-lg shadow-lg"
           />
@@ -44,11 +43,11 @@ function Art() {
 
           {ShowBuy && (
             <div className="">
-            <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-10" />
-            <div className="fixed top-0 left-0 w-screen h-screen z-20 flex items-center justify-center">
-              <Buy />
+              <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-10" />
+              <div className="fixed top-0 left-0 w-screen h-screen z-20 flex items-center justify-center">
+                <Buy />
+              </div>
             </div>
-          </div>
           )}
         </div>
       </div>

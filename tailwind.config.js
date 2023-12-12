@@ -21,30 +21,44 @@ export default {
           to: { top: "0px" },
         },
         height: {
-          from: {height: "0px"},
-          to: {height: "100%"}
+          from: { height: "0px" },
+          to: { height: "100%" },
         },
         fadeIn: {
-          "0%": {
-            transform: "translate(-1px, -1px)",
+          from: {
+            opacity: 0,
+            transform: "translateY(-10px)",
           },
-          "100%": {
-            transform: "translate(0, 0, 0, 0)",
+          to: {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
+        fadeOut: {
+          from: {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+          to: {
+            opacity: 0,
+            transform: "translateY(-10px)",
           },
         },
       },
       animation: {
         pulse: "pulse 0.5s linear",
         wiggle: "wiggle 10s linear",
-        fadeIn: "fadeIn 0.25s infinite ease-in-out",
-        height: "height 0.7s ease-in-out"
+        fadeIn: "fadeIn 0.5s linear",
+        fadeOut: "fadeOut 0.5s linear",
+        height: "height 0.7s ease-in-out",
       },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],
         Fira: ["Fira Sans", "sans-serif"],
         Pacifico: ["Pacifico", "cursive"],
-        Josefin: ['Josefin Sans', 'sans-serif'],
-        Cairo: ['Cairo', 'sans-serif']
+        Josefin: ["Josefin Sans", "sans-serif"],
+        Cairo: ["Cairo", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
         "eye-makeup": "url('/eye-makeup.jpg')",
@@ -82,7 +96,7 @@ export default {
         "gega-bg": "#FBF6EE",
         "gega-green": "#908951",
         "gega-navbar": "#DDCAB9",
-        "gega-dark-red": "#9B3727"
+        "gega-dark-red": "#9B3727",
       },
     },
   },

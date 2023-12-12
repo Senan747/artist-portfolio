@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import { AiOutlineMail, AiOutlinePhone, AiOutlineHome } from "react-icons/ai";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { AiOutlinePhone } from "react-icons/ai";
 import { GrMapLocation } from "react-icons/gr";
+import emailjs from "emailjs-com";
 
 function ContactContainer() {
   const form = useRef();
@@ -25,8 +26,8 @@ function ContactContainer() {
       );
   };
   return (
-    <div className="max-h-screen flex items-center justify-around flex-row mt-[80px] py-20 ">
-      <div className="w-[500px]">
+    <div className="max-h-screen flex items-center justify-around flex-row py-36">
+      <div className="w-[500px] max-md:p-10">
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -64,7 +65,7 @@ function ContactContainer() {
           </button>
         </form>
       </div>
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-4 max-md:hidden">
         <div className="flex items-center space-x-2">
           <FaInstagram className="text-2xl text-pink-500" />
           <div className="text-lg">Instagram</div>

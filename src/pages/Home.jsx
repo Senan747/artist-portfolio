@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="">
       <Profile />
-      <Information />
+      {/* <Information /> */}
       <ArtsContainer />
     </motion.div>
   );

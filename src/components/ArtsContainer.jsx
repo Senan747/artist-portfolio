@@ -20,7 +20,6 @@ function Arts() {
     count = 13;
   }
 
-  console.log(location.pathname)
 
   const handleClick = (newData) => {
     dispatch(setArt(newData));
@@ -31,7 +30,7 @@ function Arts() {
     imageElements.push(
       <div
         key={i}
-        className="m-5 relative cursor-pointer"
+        className="m-5 max-md:m-2 relative cursor-pointer"
         onMouseEnter={() => {
           setPhotoNumber(i);
         }}
@@ -54,14 +53,14 @@ function Arts() {
   }
 
   return (
-    <div id="#arts" className="my-20 w-full pt-28">
+    <div id="#arts" className="my-20 w-full">
       <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">
         Əsərlər
       </h1>
       <div className="">
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 300: 1, 500: 2, 700: 3, 900: 3 }}
-          className="max-w-[1400px] mx-20"
+          className="mx-20 max-md:mx-3"
         >
           <Masonry>{imageElements}</Masonry>
         </ResponsiveMasonry>
