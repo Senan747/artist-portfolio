@@ -2,9 +2,9 @@ import React from "react";
 
 function Information() {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-20">
+    <>
       <div className="w-[90%] h-[1px] bg-gega-black text-center"></div>
-      <div className="w-[90%] flex flex-row justify-between items-start mt-10 gap-5">
+      <div className="w-[90%] flex flex-row justify-between items-start mt-10 gap-5 max-md:mt-1">
         <div className="font-Cairo">
           <p className="text-3xl max-md:text-xl">Kariyera</p>
           <p className="text-2xl max-md:text-lg">1998 - Davam edir</p>
@@ -27,7 +27,7 @@ function Information() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

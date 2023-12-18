@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <div className="bg-gega-navbar flex flex-row justify-center items-center  top-0 fixed p-4 max-md:p-2 w-screen z-20 font-Inter">
-      <div className="flex flex-row justify-around items-center w-full relative">
+      <div className="flex flex-row justify-around max-md:justify-between max-md:px-4 items-center w-full relative">
         <div className="w-[80px] h-[80px] max-md:w-[60px] max-md:h-[60px]">
           <img src="/logo-2.png" alt="" />
         </div>
