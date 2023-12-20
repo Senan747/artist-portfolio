@@ -1,18 +1,25 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Language } from "@mui/icons-material";
 import { Drawer } from "@mui/material";
-import { FaHome } from "react-icons/fa";
-import { IoMdInformationCircle } from "react-icons/io";
-import { HiMiniPhoto } from "react-icons/hi2";
-import { IoIosContacts } from "react-icons/io";
 import { Home, Info, Phone, Photo } from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const handleClose = () => {
     setShowMenu(!showMenu);
+  };
+
+  const handleLangClick = () => {
+    if (i18n.language == "az") {
+      i18n.changeLanguage("en");
+    } else {
+      i18n.changeLanguage("az");
+    }
   };
 
   return (
@@ -30,43 +37,60 @@ function Navbar() {
         </div>
         <div className={`flex flex-row justify-between gap-20 max-md:hidden`}>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/"}> Ana səhifə</Link>
+            <Link to={"/"}> {t("menu.home")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/haqqında"}>Haqqında</Link>
+            <Link to={"/haqqında"}>{t("menu.about")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/resmler"}>Rəsmlər</Link>
+            <Link to={"/resmler"}>{t("menu.photos")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/elaqe"}>Əlaqə</Link>
+            <Link to={"/elaqe"}>{t("menu.contact")}</Link>
+          </div>
+          <div
+            className="text-xl text-gega-dark-red font-semibold cursor-pointer"
+            onClick={() => handleLangClick()}
+          >
+            {i18n.language == "az" ? "AZ" : "EN"}
           </div>
         </div>
       </div>
       <Drawer onClose={handleClose} open={showMenu} anchor="right">
-        <div className={`flex flex-col justify-between gap-10 p-20 font-Inter`}>
+        <div
+          className={`flex flex-col justify-between items-start gap-10 p-20 font-Inter`}
+        >
           <div className="text-base text-gega-dark-red font-semibold">
             <Link to={"/"} className="flex items-center gap-2">
-              <Home /> Ana səhifə
+              <Home /> {t("menu.home")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
             <Link to={"/haqqında"} className="flex items-center gap-2">
               <Info />
-              Haqqında
+              {t("menu.about")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
             <Link to={"/resmler"} className="flex items-center gap-2">
               <Photo />
-              Rəsmlər
+              {t("menu.photos")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
             <Link to={"/elaqe"} className="flex items-center gap-2">
               <Phone />
-              Əlaqə
+              {t("menu.contact")}
             </Link>
+          </div>
+          <div
+            className="text-xl text-gega-dark-red font-semibold cursor-pointer "
+            onClick={() => handleLangClick()}
+          >
+            <div className="flex items-center justify-center gap-2">
+              <Language />
+              <p>{i18n.language == "az" ? "AZ" : "EN"}</p>
+            </div>
           </div>
         </div>
       </Drawer>

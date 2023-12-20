@@ -16,6 +16,7 @@ export default function Footer() {
             ? theme.palette.grey[200]
             : theme.palette.grey[800],
         p: 6,
+        marginTop: 20,
       }}
     >
       <Container maxWidth="lg">
@@ -65,7 +66,10 @@ export default function Footer() {
         <Box mt={5}>
           <Typography variant="body2" color="text.secondary" align="center">
             {"Copyright © "}
-            <Link color="inherit" href="https://my-portfolio-2-flax.vercel.app/">
+            <Link
+              color="inherit"
+              href="https://my-portfolio-2-flax.vercel.app/"
+            >
               Senan Memmedov
             </Link>{" "}
             {new Date().getFullYear()}

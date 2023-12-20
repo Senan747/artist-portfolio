@@ -19,7 +19,7 @@ function Art() {
       <div class="flex items-center flex-row max-md:flex-col justify-around">
         <div class="mb-4">
           <img
-            src={`/intiqam_${art.id - 1}_big.webp`}
+            src={`/intiqam_${art.id}_big.webp`}
             alt=""
             class="max-w-md rounded-lg shadow-lg"
           />
