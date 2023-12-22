@@ -1,12 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import art from './art'
-import buy from "./buy"
+import art from "./art";
 
 const store = configureStore({
-    reducer: {
-        art,
-        buy
-    }
-})
+  reducer: {
+    art,
+  },
+});
 
-export default store
+export default store;

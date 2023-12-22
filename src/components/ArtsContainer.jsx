@@ -36,7 +36,7 @@ function Arts() {
         onMouseLeave={() => setPhotoNumber("")}
         onClick={() => handleClick(data[i - 1])}
       >
-        <img src={`/intiqam_${i}_big.webp`} alt="" className="relative" />
+        <img src={`/intiqam_${i}_big.webp`} alt="" className="relative w-full h-full" />
         {photoNumber === i && (
           <div className="absolute animate-height w-full h-full opacity-[0.9] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gega-white flex flex-col items-center justify-center">
             <h2 className="text-center text-gega-black font-semibold">

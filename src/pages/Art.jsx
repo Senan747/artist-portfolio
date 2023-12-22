@@ -1,19 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import Navbar from "../components/Navbar";
 import Buy from "../components/Buy";
-import { openShowBuy } from "../stores/buy";
-import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 function Art() {
   const { art } = useSelector((state) => state.art);
-  const { ShowBuy } = useSelector((state) => state.buy);
-  const dispatch = useDispatch();
+  const [showBuy, setShowBuy] = useState(false);
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    dispatch(openShowBuy());
+    setShowBuy(!showBuy);
   };
-  console.log(ShowBuy);
+  useEffect(() => {
+    if (art == []) {
+      navigate("/");
+    }
+  }, [art]);
+
   return (
     <div className="pt-48 max-md:pt-24 pb-10">
       <div class="flex items-center flex-row max-md:flex-col justify-around">
@@ -40,17 +43,9 @@ function Art() {
           >
             Al
           </button>
-
-          {ShowBuy && (
-            <div className="">
-              <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-50 z-10" />
-              <div className="fixed top-0 left-0 w-screen h-screen z-20 flex items-center justify-center">
-                <Buy />
-              </div>
-            </div>
-          )}
         </div>
       </div>
+      <Buy open={showBuy} onClose={handleClick} />
     </div>
   );
 }

@@ -30,7 +30,7 @@ function Navbar() {
         </div>
 
         <div
-          className="hidden max-md:block cursor-pointer relative"
+          className="hidden max-md:block cursor-pointer relative mr-4"
           onClick={() => setShowMenu(!showMenu)}
         >
           <GiHamburgerMenu className="text-2xl" />
