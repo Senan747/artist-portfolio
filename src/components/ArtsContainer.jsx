@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useLocation, useNavigate } from "react-router-dom";
 import ForMore from "./ForMore";
-import data from "../../db.json";
+import data from "../../arts.json";
 import { setArt } from "../stores/art";
 import { useDispatch } from "react-redux";
 
@@ -53,7 +53,7 @@ function Arts() {
 
   return (
     <div id="#arts" className="my-20 w-full">
-      <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green">
+      <h1 className="font-Josefin text-7xl text-center pb-10 text-gega-green max-lg:text-4xl">
         Əsərlər
       </h1>
       <div className="">

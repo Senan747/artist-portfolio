@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Buy from "../components/Buy";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Art() {
   const { art } = useSelector((state) => state.art);
@@ -18,7 +19,11 @@ function Art() {
   }, [art]);
 
   return (
-    <div className="pt-48 max-md:pt-24 pb-10">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="pt-48 max-md:pt-24 pb-10"
+    >
       <div class="flex items-center flex-row max-md:flex-col justify-around">
         <div class="mb-4">
           <img
@@ -46,7 +51,7 @@ function Art() {
         </div>
       </div>
       <Buy open={showBuy} onClose={handleClick} />
-    </div>
+    </motion.div>
   );
 }
 

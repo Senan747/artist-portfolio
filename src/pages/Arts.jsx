@@ -1,12 +1,17 @@
 import React, { useState } from "react";
-
+import { motion } from "framer-motion";
 import ArtsContainer from "../components/ArtsContainer";
 
 function Arts() {
   return (
-    <div id="#arts" className="pt-28">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      id="#arts"
+      className="pt-28 max-lg:pt-10"
+    >
       <ArtsContainer />
-    </div>
+    </motion.div>
   );
 }
 
