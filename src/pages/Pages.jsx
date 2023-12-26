@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./Home";
 import Arts from "./Arts";
 import Contact from "./Contact";
@@ -8,6 +9,12 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Pages() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       {" "}

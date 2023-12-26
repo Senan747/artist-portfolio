@@ -2,8 +2,8 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="w-full flex items-center justify-center flex-wrap pt-28 max-md:pt-20">
-      <div className="bg-gega-green flex flex-row items-center max-lg:flex-col max-md:gap-3 justify-between p-10 max-md:p-5 m-20 max-md:m-5">
+    <div className="w-full flex items-center justify-center flex-wrap pt-28 max-md:pt-0" >
+      <div className="bg-gega-green flex flex-row items-center max-lg:flex-col max-md:gap-3 justify-between p-10 max-md:p-5 m-20 max-md:m-0 max-md:pt-24">
         <div className="bg-gega-white rounded-[30px] p-10">
           <div className="pb-5 flex flex-row items-center">
             <img

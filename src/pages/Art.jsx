@@ -24,26 +24,31 @@ function Art() {
       animate={{ opacity: 1 }}
       className="pt-48 max-md:pt-24 pb-10"
     >
-      <div class="flex items-center flex-row max-md:flex-col justify-around">
-        <div class="mb-4">
+      <div className="flex items-center flex-row max-md:flex-col justify-around">
+        <div className="">
           <img
             src={`/intiqam_${art.id}_big.webp`}
             alt=""
-            class="max-w-md rounded-lg shadow-lg"
+            className="max-w-md  shadow-xl" 
+            style={{ boxShadow: "0 15px 29px rgba(80, 20, 50, 0.6)" }} // Add this line for the shadow
           />
         </div>
 
-        <div class="text-justify">
-          <h1 class="text-3xl font-semibold mb-2">Əsərin adı: {art.name}</h1>
-          <h1 class="text-xl font-medium mb-2">Rəssam: {art.author}</h1>
-          <h1 class="text-lg font-normal mb-2">Ölçülər: {art.dimensions}</h1>
-          <h1 class="text-lg font-normal mb-2">
+        <div className="text-justify">
+          <h1 className="text-3xl font-semibold mb-2">
+            Əsərin adı: {art.name}
+          </h1>
+          <h1 className="text-xl font-medium mb-2">Rəssam: {art.author}</h1>
+          <h1 className="text-lg font-normal mb-2">
+            Ölçülər: {art.dimensions}
+          </h1>
+          <h1 className="text-lg font-normal mb-2">
             Üsul və boyama: {art.technique}
           </h1>
-          <h1 class="text-lg font-normal mb-4">Tarix: {art.year}</h1>
+          <h1 className="text-lg font-normal mb-4">Tarix: {art.year}</h1>
 
           <button
-            class="px-9 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
+            className="px-9 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
             onClick={handleClick}
           >
             Al
