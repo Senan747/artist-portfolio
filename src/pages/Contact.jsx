@@ -6,6 +6,15 @@ import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 
 function Contact() {
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute(
+        "6Lf_LD8pAAAAAIqBoJKY8ziWpPUpRQP_7dOfcwLg",
+        { action: "LOGIN" }
+      );
+    });
+  }
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -59,6 +68,10 @@ function Contact() {
               rows="4"
               className="border rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring focus:border-blue-300"
             ></textarea>
+            <div
+              class="g-recaptcha"
+              data-sitekey="6Lf_LD8pAAAAAIqBoJKY8ziWpPUpRQP_7dOfcwLg"
+            ></div>
             <button
               type="submit"
               className="bg-gega-red text-white rounded-md py-2 px-4"

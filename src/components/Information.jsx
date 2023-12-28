@@ -32,57 +32,35 @@ const Information = () => {
     <AnimatePresence>
       <div className="w-full flex flex-col justify-between items-start mt-10 gap-5 max-md:mt-1">
         {visibleItems.map((item, index) => (
-          <motion.div
+          <div
             key={index}
-            className="w-full flex flex-row justify-around items-start mt-10 gap-5 max-md:mt-1 relative"
-            initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100, y: 50 }}
-            animate={{
-              opacity: scrollY > 100 ? 1 : 0,
-              x: 0,
-              y: scrollY > 100 ? 0 : 50,
-            }}
-            exit={{ opacity: 0, x: index % 2 === 0 ? -100 : 100, y: 50 }}
-            transition={{
-              opacity: { duration: 0.5 },
-              x: { duration: 0.5 },
-              y: { duration: 0.5 },
-            }}
+            className="w-full flex flex-row justify-around items-start mt-10 gap-48 max-md:mt-1 relative"
           >
             <div className="w-[90%] h-[1px] absolute bg-gega-black text-center"></div>
             <div className="font-Cairo pt-10">
               <p className="text-3xl max-md:text-xl">Kariyera</p>
               <p className="text-2xl max-md:text-lg">{item.year}</p>
             </div>
-            <div className="flex flex-col w-[70%] pt-10">
-              <p>{item.content}</p>
+            <div className="flex flex-col w-[50%] pt-10">
+              <p className="text-lg font-Inter pb-3">{item.content}</p>
               <div>
-                <div className="w-[60%] h-auto">
-                  <img src="/sergi.jpg" alt="" className="w-full" />
+                <div className="w-[20%] h-auto">
+                  <img src={item.images} alt="" className="w-full" />
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
 
-        <motion.div
-          key="button"
-          className="w-[94%] flex items-center justify-center"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{
-            opacity: scrollY > 100 ? 1 : 0,
-            y: 0,
-          }}
-          exit={{ opacity: 0, y: 30 }}
-          transition={{ opacity: { duration: 0.5 }, y: { duration: 0.5 } }}
-        >
+        <div key="button" className="w-full mt-10 flex items-center justify-center">
           <Pagination
             count={Math.ceil(career.length / itemsPerPage)}
             variant="outlined"
             page={page}
             onChange={handleChange}
-            size="large"
+            size="meduim"
           />
-        </motion.div>
+        </div>
       </div>
     </AnimatePresence>
   );
