@@ -5,10 +5,12 @@ import { Language } from "@mui/icons-material";
 import { Drawer } from "@mui/material";
 import { Home, Info, Phone, Photo } from "@mui/icons-material";
 import { useTranslation } from "react-i18next";
+import { motion, useScroll } from "framer-motion";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   const { t, i18n } = useTranslation();
+  const { scrollYProgress } = useScroll();
 
   const handleClose = () => {
     setShowMenu(!showMenu);
@@ -56,6 +58,11 @@ function Navbar() {
           </div>
         </div>
       </div>
+      <motion.div
+        className="fixed top-28 max-md:top-[72px] z-20 left-0 right-0 h-1 bg-gega-earth transform-origin-0"
+        style={{ scaleX: scrollYProgress }}
+      />
+
       <Drawer onClose={handleClose} open={showMenu} anchor="right">
         <div
           className={`flex flex-col justify-between items-start gap-10 p-20 font-Inter`}

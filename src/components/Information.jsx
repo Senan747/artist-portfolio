@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import Pagination from "@mui/material/Pagination";
 import career from "../../career.json";
 
 const Information = () => {
-  const [showAll, setShowAll] = useState(false);
   const [scrollY, setScrollY] = useState(0);
+  const [page, setPage] = useState(1);
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -19,7 +19,14 @@ const Information = () => {
     };
   }, []);
 
-  const visibleItems = showAll ? career : career.slice(0, 3);
+  const itemsPerPage = 3;
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const visibleItems = career.slice(startIndex, endIndex);
+
+  const handleChange = (event, newPage) => {
+    setPage(newPage);
+  };
 
   return (
     <AnimatePresence>
@@ -35,7 +42,11 @@ const Information = () => {
               y: scrollY > 100 ? 0 : 50,
             }}
             exit={{ opacity: 0, x: index % 2 === 0 ? -100 : 100, y: 50 }}
-            transition={{ opacity: { duration: 0.5 }, x: { duration: 0.5 }, y: { duration: 0.5 } }}
+            transition={{
+              opacity: { duration: 0.5 },
+              x: { duration: 0.5 },
+              y: { duration: 0.5 },
+            }}
           >
             <div className="w-[90%] h-[1px] absolute bg-gega-black text-center"></div>
             <div className="font-Cairo pt-10">
@@ -45,37 +56,33 @@ const Information = () => {
             <div className="flex flex-col w-[70%] pt-10">
               <p>{item.content}</p>
               <div>
-                <div></div>
                 <div className="w-[60%] h-auto">
                   <img src="/sergi.jpg" alt="" className="w-full" />
                 </div>
-                <div></div>
               </div>
             </div>
           </motion.div>
         ))}
-        {!showAll && (
-          <motion.div
-            key="button"
-            className="w-[94%] flex items-center justify-center"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{
-              opacity: scrollY > 100 ? 1 : 0,
-              y: 0,
-            }}
-            exit={{ opacity: 0, y: 30 }}
-            transition={{ opacity: { duration: 0.5 }, y: { duration: 0.5 } }}
-          >
-            <div className="cursor-pointer font-semibold">
-              <button
-                onClick={() => setShowAll(true)}
-                className="flex items-center justify-around ml border-2 border-gega-red rounded-xl p-2 gap-2 hover:bg-gega-red hover:text-white duration-300"
-              >
-                Daha çoxunu göstər
-              </button>
-            </div>
-          </motion.div>
-        )}
+
+        <motion.div
+          key="button"
+          className="w-[94%] flex items-center justify-center"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{
+            opacity: scrollY > 100 ? 1 : 0,
+            y: 0,
+          }}
+          exit={{ opacity: 0, y: 30 }}
+          transition={{ opacity: { duration: 0.5 }, y: { duration: 0.5 } }}
+        >
+          <Pagination
+            count={Math.ceil(career.length / itemsPerPage)}
+            variant="outlined"
+            page={page}
+            onChange={handleChange}
+            size="large"
+          />
+        </motion.div>
       </div>
     </AnimatePresence>
   );

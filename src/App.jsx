@@ -1,6 +1,7 @@
 import "./App.css";
 import Pages from "./pages/Pages";
-import Home from "./pages/Home";
+import { motion, useScroll } from "framer-motion"
+
 
 function App() {
   return (
@@ -9,7 +10,6 @@ function App() {
       <div className="bg-yellow-500 opacity-10 absolute inset-0 z-0"></div>
       <div className="relative z-10">
         <Pages />
-        {/* <Home /> */}
       </div>
     </div>
   );

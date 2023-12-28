@@ -13,6 +13,7 @@ function About() {
     >
       <Profile />
       <Information />
+      <h1 className="text-4xl font-semibold font-Inter">Interviews</h1>
       <Interview />
     </motion.div>
   );
