@@ -1,10 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Button, Modal, TextField, TextareaAutosize } from "@mui/material";
 
-function ContactUs({ open, onClose }) {
+function ContactUs({ open, onClose, closeSnackbar }) {
   const form = useRef();
   const { art } = useSelector((state) => state.art);
   let navigate = useNavigate();
@@ -31,10 +31,14 @@ function ContactUs({ open, onClose }) {
         (result) => {
           console.log(result.text);
         },
+
         (error) => {
           console.log(error.text);
         }
       );
+
+    closeSnackbar();
+    onClose();
   };
 
   const modalStyle = {

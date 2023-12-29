@@ -8,10 +8,8 @@ import About from "./About";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-
 function Pages() {
   const { pathname } = useLocation();
- 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,7 +18,6 @@ function Pages() {
   return (
     <>
       <Navbar />
-    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resmler" element={<Arts />} />

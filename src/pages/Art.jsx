@@ -3,14 +3,20 @@ import { useSelector } from "react-redux";
 import Buy from "../components/Buy";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import SnackbarComponent from "../components/SnackbarComponent";
 
 function Art() {
   const { art } = useSelector((state) => state.art);
   const [showBuy, setShowBuy] = useState(false);
+  const [openSnackbar, setOpenSnackbar] = useState(false);
   const navigate = useNavigate();
 
   const handleClick = () => {
     setShowBuy(!showBuy);
+  };
+
+  const handleClose = () => {
+    setOpenSnackbar(!openSnackbar);
   };
   useEffect(() => {
     if (art == []) {
@@ -29,7 +35,7 @@ function Art() {
           <img
             src={`/intiqam_${art.id}_big.webp`}
             alt=""
-            className="max-w-md  shadow-xl" 
+            className="max-w-md  shadow-xl"
             style={{ boxShadow: "0 15px 29px rgba(80, 20, 50, 0.6)" }} // Add this line for the shadow
           />
         </div>
@@ -55,7 +61,16 @@ function Art() {
           </button>
         </div>
       </div>
-      <Buy open={showBuy} onClose={handleClick} />
+      <Buy
+        open={showBuy}
+        onClose={handleClick}
+        openSnackbar={openSnackbar}
+        closeSnackbar={handleClose}
+      />
+      <SnackbarComponent
+        openSnackbar={openSnackbar}
+        handleClose={handleClose}
+      />
     </motion.div>
   );
 }
