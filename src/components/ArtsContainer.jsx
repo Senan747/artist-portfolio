@@ -14,7 +14,7 @@ function Arts() {
   let dispatch = useDispatch();
 
   let count;
-  if (location.pathname === "/resmler") {
+  if (location.pathname === "/arts") {
     count = 43;
   } else {
     count = 13;
@@ -68,7 +68,7 @@ function Arts() {
           <Masonry>{imageElements}</Masonry>
         </ResponsiveMasonry>
       </div>
-      {location.pathname != "/resmler" && <ForMore />}
+      {location.pathname != "/arts" && <ForMore />}
     </div>
   );
 }

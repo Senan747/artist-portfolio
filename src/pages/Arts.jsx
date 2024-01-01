@@ -8,7 +8,7 @@ function Arts() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       id="#arts"
-      className="pt-28 max-lg:pt-10"
+      className="pt-20 max-lg:pt-5"
     >
       <ArtsContainer />
     </motion.div>
