@@ -11,17 +11,12 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   const { t, i18n } = useTranslation();
   const { scrollYProgress } = useScroll();
-
   const handleClose = () => {
     setShowMenu(!showMenu);
   };
 
-  const handleLangClick = () => {
-    if (i18n.language == "az") {
-      i18n.changeLanguage("en");
-    } else {
-      i18n.changeLanguage("az");
-    }
+  const handleLangClick = (lang) => {
+    i18n.changeLanguage(lang);
   };
 
   return (
@@ -39,23 +34,29 @@ function Navbar() {
         </div>
         <div className={`flex flex-row justify-between gap-20 max-md:hidden`}>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/"}> {t("menu.home")}</Link>
+            <Link to={``}>{t("menu.home")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/haqqında"}>{t("menu.about")}</Link>
+            <Link to={`/about`}>{t("menu.about")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/resmler"}>{t("menu.photos")}</Link>
+            <Link to={`/arts`}>{t("menu.photos")}</Link>
           </div>
           <div className="text-xl text-gega-dark-red font-semibold">
-            <Link to={"/elaqe"}>{t("menu.contact")}</Link>
+            <Link to={`/contact`}>{t("menu.contact")}</Link>
           </div>
-          <div
-            className="text-xl text-gega-dark-red font-semibold cursor-pointer"
-            onClick={() => handleLangClick()}
+
+          <select
+            name="language"
+            id=""
+            defaultValue={i18n.language}
+            className="bg-gega-navbar outline-none"
+            onChange={(e) => handleLangClick(e.target.value)}
           >
-            {i18n.language == "az" ? "AZ" : "EN"}
-          </div>
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="tr">TR</option>
+          </select>
         </div>
       </div>
       <motion.div
@@ -68,24 +69,24 @@ function Navbar() {
           className={`flex flex-col justify-between items-start gap-10 p-20 font-Inter`}
         >
           <div className="text-base text-gega-dark-red font-semibold">
-            <Link to={"/"} className="flex items-center gap-2">
+            <Link to={``} className="flex items-center gap-2">
               <Home /> {t("menu.home")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
-            <Link to={"/haqqında"} className="flex items-center gap-2">
+            <Link to={`/about`} className="flex items-center gap-2">
               <Info />
               {t("menu.about")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
-            <Link to={"/resmler"} className="flex items-center gap-2">
+            <Link to={`/arts`} className="flex items-center gap-2">
               <Photo />
               {t("menu.photos")}
             </Link>
           </div>
           <div className="text-base text-gega-dark-red font-semibold">
-            <Link to={"/elaqe"} className="flex items-center gap-2">
+            <Link to={`/contact`} className="flex items-center gap-2">
               <Phone />
               {t("menu.contact")}
             </Link>
@@ -96,7 +97,17 @@ function Navbar() {
           >
             <div className="flex items-center justify-center gap-2">
               <Language />
-              <p>{i18n.language == "az" ? "AZ" : "EN"}</p>
+              <select
+                name="language"
+                id=""
+                defaultValue={i18n.language}
+                className="bg-gega-navbar outline-none"
+                onChange={(e) => handleLangClick(e.target.value)}
+              >
+                <option value="en">EN</option>
+                <option value="az">AZ</option>
+                <option value="tr">TR</option>
+              </select>
             </div>
           </div>
         </div>

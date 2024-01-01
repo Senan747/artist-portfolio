@@ -19,11 +19,11 @@ function Pages() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/resmler" element={<Arts />} />
-        <Route path="/elaqe" element={<Contact />} />
-        <Route path="/art/:name" element={<Art />} />
-        <Route path="/haqqında" element={<About />} />
+        <Route path={`/`} element={<Home />} />
+        <Route path={`/arts`} element={<Arts />} />
+        <Route path={`/contact`} element={<Contact />} />
+        <Route path={`/arts/:name`} element={<Art />} />
+        <Route path={`/about`} element={<About />} />
       </Routes>
       <Footer />
     </>
