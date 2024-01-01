@@ -50,12 +50,6 @@ function ContactUs({ open, onClose, closeSnackbar }) {
   return (
     <Modal open={open} onClose={onClose} style={modalStyle}>
       <div className="bg-gega-white flex items-center justify-center flex-col gap-4 border-4 rounded-lg p-8 min-w-[400px]">
-        <div
-          className="absolute -top-4 -right-5 rounded-[100%] w-10 h-10 bg-gega-dark-red flex items-center justify-center cursor-pointer"
-          onClick={onClose}
-        >
-          <p className="text-gega-white">X</p>
-        </div>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -82,7 +76,7 @@ function ContactUs({ open, onClose, closeSnackbar }) {
             multiline
             rows={4}
             variant="outlined"
-            value={message}
+            defaultValue={message}
             required
           />
           <Button
@@ -94,7 +88,7 @@ function ContactUs({ open, onClose, closeSnackbar }) {
             Gönder
           </Button>
         </form>
-        <h1>Və ya</h1>
+        <p className="font-Inter">Və ya</p>
         <Button variant="outlined" color="primary" className="w-full">
           <a href="tel:+994507832995">Zəng edin</a>
         </Button>

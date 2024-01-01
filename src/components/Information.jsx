@@ -37,14 +37,14 @@ const Information = () => {
             className="w-full flex flex-row justify-around items-start mt-10 gap-48 max-md:mt-1 relative"
           >
             <div className="w-[90%] h-[1px] absolute bg-gega-black text-center"></div>
-            <div className="font-Cairo pt-10">
+            <div className="font-Cairo pt-10 max-md:px-3  ">
               <p className="text-3xl max-md:text-xl">Kariyera</p>
               <p className="text-2xl max-md:text-lg">{item.year}</p>
             </div>
             <div className="flex flex-col w-[50%] pt-10">
-              <p className="text-lg font-Inter pb-3">{item.content}</p>
+              <p className="text-lg font-Inter pb-3 max-md:text-sm">{item.content}</p>
               <div>
-                <div className="w-[20%] h-auto">
+                <div className="w-[20%] max-lg:w-[150px] h-auto">
                   <img src={item.images} alt="" className="w-full" />
                 </div>
               </div>
