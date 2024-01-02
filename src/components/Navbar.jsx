@@ -101,7 +101,7 @@ function Navbar() {
                 name="language"
                 id=""
                 defaultValue={i18n.language}
-                className="bg-gega-navbar outline-none"
+                className="outline-none text-base"
                 onChange={(e) => handleLangClick(e.target.value)}
               >
                 <option value="en">EN</option>
