@@ -1,11 +1,19 @@
 {
   "welcomeMessage": "Xoş gəldiniz!",
+  "artist": "Rəssam",
+  "contact_1": "Ad",
+  "contact_2": "Mailinizi qeyd edin",
+  "contact_3": "Mesajınızı qeyd edin",
+  "contact_4": "Göndər",
+  "about_1": "Müsahibələr",
+  "footer_1": "Haqqımızda",
+  "footer_2": "Bizimlə əlaqə",
+  "footer_3": "Bizi izlə",
+  "InfoAbout": "Ağayev İntiqam Tofiq oğlu 1966-cı ildə Azerbaycan’ın Sumqayıt şəhərində anadan olub. 1983-1989-cu ildə Ə.Əzimzadə adına Azərbaycan Dövlət rəssamlıq məktəbini bitirib. Rəssam İntiqam Ağayev ehtiyatda olan zabit, II qrup Qarabağ əlilidir. Əzim Əzimzadə adına Rəssamlıq Məktəbini bitirib. Çəkdiyi əsərlər imperssionizm üslubundadır. Əsasən, yağlı boyadan istifadə edir. İşlədiyi mövzularda isə məişət, dəniz peyzajları və müharibə mövzuları üstünlük təşkil edir. İntiqam Ağayev incəsənət aləmində özünəməxsus dəsti-xətti olan istedadlı rəssamlardandır. Rəsmlərinə baxanda insanın ağlına da gəlməz ki, o, Qarabağ müharibəsinin iştirakçısı olub, ağır döyüşlərdə iştirak edib, yaddaşında dərin iz buraxmış faciəvi itkilər görüb. Çünki yaradıcılıqda əsas şüarı auditoriyaya yalnız müsbət enerji, xoş təəssürat və nikbin əhval-ruhiyyə ötürməkdir. O, öz kədərini, ağrı-acılarını da kətan üzərinə rəngli boyalarla, gözəl təbiət mənzərələri ilə canlandırmağı bacaran rəssamlardandır. Cəbhədə baş verənləri unutmasa da, tablolarda mavi Xəzəri, qayğısız uşaqlıq illərini, Abşeronun əsrarəngiz təbiətini təsvir etməklə insanlara nikbinlik aşılamağa çalışır. Müharibə illərində qanlı savaşlarda iştirak etmiş, böyük faciələrin şahidi olmuş və rəssamlığa da məhz döyüş zamanı aldığı fiziki və mənəvi zərbədən sonra başlamış İntiqam Ağayevin yaradıcılığının əsas mövzusu vətənpərvərlik olsa da, o, heç zaman ağrı-acını, bədbinliyi, çarəsizliyi rəsmlərində təbliğ etmir, əksinə, auditoriyaya mənəvi rahatlıq və ümid hissi aşılayır, xeyirin şər üzərində gec-tez qələbə çalacağına inamını insanlara çatdırır. Bir sözlə, rəssamın optimizmlə dolu yaradıcılığı hər kəsə həyatın gözəl olduğunu, onu sevinclə, doya-doya yaşamağı, nə baş verirsə-versin həyatdan küsməməyi öyrədir. İntiqam Ağayev böyük həvəslə hazırlaşdığı, bu yaxınlarda təşkil edəcəyi yeni sərgidə yer alan tablolarda da məhz bu xətt qorunub saxlanılır.",
   "menu": {
     "home": "Ana səhifə",
     "about": "Haqqında",
     "photos": "Rəsmlər",
-    "contact": "Əlaqə",
-    "artist": "Rəssam",
-    "InfoAbout": "Ağayev İntiqam Tofiq oğlu 1966-cı ildə Azerbaycan’ın Sumqayıt şəhərində anadan olub. 1983-1989-cu ildə Ə.Əzimzadə adına Azərbaycan Dövlət rəssamlıq məktəbini bitirib. Rəssam İntiqam Ağayev ehtiyatda olan zabit, II qrup Qarabağ əlilidir. Əzim Əzimzadə adına Rəssamlıq Məktəbini bitirib. Çəkdiyi əsərlər imperssionizm üslubundadır. Əsasən, yağlı boyadan istifadə edir. İşlədiyi mövzularda isə məişət, dəniz peyzajları və müharibə mövzuları üstünlük təşkil edir. İntiqam Ağayev incəsənət aləmində özünəməxsus dəsti-xətti olan istedadlı rəssamlardandır. Rəsmlərinə baxanda insanın ağlına da gəlməz ki, o, Qarabağ müharibəsinin iştirakçısı olub, ağır döyüşlərdə iştirak edib, yaddaşında dərin iz buraxmış faciəvi itkilər görüb. Çünki yaradıcılıqda əsas şüarı auditoriyaya yalnız müsbət enerji, xoş təəssürat və nikbin əhval-ruhiyyə ötürməkdir. O, öz kədərini, ağrı-acılarını da kətan üzərinə rəngli boyalarla, gözəl təbiət mənzərələri ilə canlandırmağı bacaran rəssamlardandır. Cəbhədə baş verənləri unutmasa da, tablolarda mavi Xəzəri, qayğısız uşaqlıq illərini, Abşeronun əsrarəngiz təbiətini təsvir etməklə insanlara nikbinlik aşılamağa çalışır. Müharibə illərində qanlı savaşlarda iştirak etmiş, böyük faciələrin şahidi olmuş və rəssamlığa da məhz döyüş zamanı aldığı fiziki və mənəvi zərbədən sonra başlamış İntiqam Ağayevin yaradıcılığının əsas mövzusu vətənpərvərlik olsa da, o, heç zaman ağrı-acını, bədbinliyi, çarəsizliyi rəsmlərində təbliğ etmir, əksinə, auditoriyaya mənəvi rahatlıq və ümid hissi aşılayır, xeyirin şər üzərində gec-tez qələbə çalacağına inamını insanlara çatdırır. Bir sözlə, rəssamın optimizmlə dolu yaradıcılığı hər kəsə həyatın gözəl olduğunu, onu sevinclə, doya-doya yaşamağı, nə baş verirsə-versin həyatdan küsməməyi öyrədir. İntiqam Ağayev böyük həvəslə hazırlaşdığı, bu yaxınlarda təşkil edəcəyi yeni sərgidə yer alan tablolarda da məhz bu xətt qorunub saxlanılır."
+    "contact": "Əlaqə"
   }
 }

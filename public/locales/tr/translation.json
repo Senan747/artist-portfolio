@@ -1,11 +1,19 @@
 {
   "welcomeMessage": "Web sitemize hoş geldiniz!",
+  "artist": "Ressam",
+  "contact_1": "İsim",
+  "contact_2": "Mailinizi giriniz",
+  "contact_3": "Mesajınızı giriniz",
+  "contact_4": "Gönder",
+  "about_1": "Röportajlar",
+  "footer_1": "Hakkımızda",
+  "footer_2": "Bizimle iletişim",
+  "footer_3": "Bizi takip et",
+  "InfoAbout": "Agayev İntigam Tofig oğlu 1966 yılında Azerbaycan'ın Sumgayıt şehrinde doğdu. 1983-1989 yılında A. Azimzadeh Azerbaycan Devlet Sanat Okulu'ndan mezun oldu. Sanatçı İntigam Agayev yedek subay, Karabağ II. grup engellidir. Azim Azimzadeh Sanat Okulu'ndan mezun oldu. Resimleri empresyonizm tarzındadır. Çoğunlukla yağlı boya kullanıyor. Eserlerinde ev, deniz manzaraları ve savaş temaları ağırlıktadır. İntigam Agayev, sanat dünyasının kendine özgü üslubuyla yetenekli sanatçılarından biridir. Resimlerine bakıldığında Karabağ savaşına katıldığını, ağır savaşlara katıldığını, anılarında derin iz bırakan trajik kayıplar yaşadığını hayal etmek mümkün değil. Çünkü yaratıcılığın ana sloganı izleyiciye yalnızca pozitif enerji, iyi izlenim ve iyimser ruh hali aktarmaktır. Hüznünü ve acısını tuval üzerine rengarenk boyalar ve güzel doğa manzaralarıyla canlandırabilen sanatçılardan biridir. Cephede yaşananları unutmasa da resimlerinde Hazar'ın maviliğini, tasasız çocukluk yıllarını ve Abşeron'un gizemli doğasını tasvir ederek insanlara iyimserlik aşılamaya çalışıyor. İntigam Aghayev'in yaratıcılığının ana teması vatanseverlik olsa da resimlerinde asla acıyı, karamsarlığı ve çaresizliği teşvik etmez, izleyicide ahlaki rahatlık ve umut duygusu uyandırır, iyi niyetin er ya da geç kötülüğe galip geleceği inancını aktarır. Sanatçının iyimserlik dolu çalışmaları, kısacası herkese hayatın güzel olduğunu, onu keyifle, dolu dolu yaşamayı, ne olursa olsun hayata küsmemeyi öğretiyor. İntigam Agayev'in büyük bir heyecanla hazırladığı bu çizgi, yakın zamanda düzenleyeceği yeni sergisinde yer alan resimlerinde de korunuyor.",
   "menu": {
     "home": "Ana sayfa",
     "about": "Hakkında",
     "photos": "Resimler",
-    "contact": "İletişim",
-    "artist": "Ressam",
-    "InfoAbout": "Agayev İntigam Tofig oğlu 1966 yılında Azerbaycan'ın Sumgayıt şehrinde doğdu. 1983-1989 yılında A. Azimzadeh Azerbaycan Devlet Sanat Okulu'ndan mezun oldu. Sanatçı İntigam Agayev yedek subay, Karabağ II. grup engellidir. Azim Azimzadeh Sanat Okulu'ndan mezun oldu. Resimleri empresyonizm tarzındadır. Çoğunlukla yağlı boya kullanıyor. Eserlerinde ev, deniz manzaraları ve savaş temaları ağırlıktadır. İntigam Agayev, sanat dünyasının kendine özgü üslubuyla yetenekli sanatçılarından biridir. Resimlerine bakıldığında Karabağ savaşına katıldığını, ağır savaşlara katıldığını, anılarında derin iz bırakan trajik kayıplar yaşadığını hayal etmek mümkün değil. Çünkü yaratıcılığın ana sloganı izleyiciye yalnızca pozitif enerji, iyi izlenim ve iyimser ruh hali aktarmaktır. Hüznünü ve acısını tuval üzerine rengarenk boyalar ve güzel doğa manzaralarıyla canlandırabilen sanatçılardan biridir. Cephede yaşananları unutmasa da resimlerinde Hazar'ın maviliğini, tasasız çocukluk yıllarını ve Abşeron'un gizemli doğasını tasvir ederek insanlara iyimserlik aşılamaya çalışıyor. İntigam Aghayev'in yaratıcılığının ana teması vatanseverlik olsa da resimlerinde asla acıyı, karamsarlığı ve çaresizliği teşvik etmez, izleyicide ahlaki rahatlık ve umut duygusu uyandırır, iyi niyetin er ya da geç kötülüğe galip geleceği inancını aktarır. Sanatçının iyimserlik dolu çalışmaları, kısacası herkese hayatın güzel olduğunu, onu keyifle, dolu dolu yaşamayı, ne olursa olsun hayata küsmemeyi öğretiyor. İntigam Agayev'in büyük bir heyecanla hazırladığı bu çizgi, yakın zamanda düzenleyeceği yeni sergisinde yer alan resimlerinde de korunuyor."
+    "contact": "İletişim"
   }
 }

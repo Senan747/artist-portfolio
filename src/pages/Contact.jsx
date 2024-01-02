@@ -5,9 +5,11 @@ import { GrMapLocation } from "react-icons/gr";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import SnackbarComponent from "../components/SnackbarComponent";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
   const [openSnackbar, setOpenSnackbar] = useState(false);
+  const { t } = useTranslation();
   const form = useRef();
   const handleClose = () => {
     setOpenSnackbar(!openSnackbar);
@@ -44,7 +46,7 @@ function Contact() {
           onSubmit={sendEmail}
           className="flex flex-col gap-2 w-full"
         >
-          <label className="text-gega-red">Ad</label>
+          <label className="text-gega-red">{t("contact_1")}</label>
           <input
             type="text"
             id="user_name"
@@ -52,7 +54,7 @@ function Contact() {
             className="border rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring focus:border-blue-300"
             required
           />
-          <label className="text-gega-red">Mailinizi qeyd edin</label>
+          <label className="text-gega-red">{t("contact_2")}</label>
           <input
             required
             type="email"
@@ -60,7 +62,7 @@ function Contact() {
             name="user_email"
             className="border rounded-md px-3 py-2 pr-20 mt-1 focus:outline-none focus:ring focus:border-blue-300"
           />
-          <label className="text-gega-red">Mesajınızı qeyd edin</label>
+          <label className="text-gega-red">{t("contact_3")}</label>
           <textarea
             required
             id="message"
@@ -73,7 +75,7 @@ function Contact() {
             type="submit"
             className="bg-gega-red text-white rounded-md py-2 px-4"
           >
-            Göndər
+            {t("contact_4")}
           </button>
         </form>
       </div>

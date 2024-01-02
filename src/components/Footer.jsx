@@ -5,8 +5,10 @@ import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { Box } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <Box
       component="footer"
@@ -23,7 +25,7 @@ export default function Footer() {
         <Grid container spacing={5}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              About Us
+              {t("footer_1")}
             </Typography>
             <Typography variant="body2" color="text.secondary">
               We are XYZ company, dedicated to providing the best service to our
@@ -32,7 +34,7 @@ export default function Footer() {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Contact Us
+              {t("footer_2")}
             </Typography>
             <Typography variant="body2" color="text.secondary">
               123 Main Street, Anytown, USA
@@ -46,7 +48,7 @@ export default function Footer() {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Follow Us
+              {t("footer_3")}
             </Typography>
             <Link href="https://www.facebook.com/" color="inherit">
               <Facebook />

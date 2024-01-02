@@ -1,41 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import videoData from "../../videoData.json";
+import { useTranslation } from "react-i18next";
 
 export default function Interview() {
-  const videoData = [
-    {
-      id: 1,
-      url: "https://www.youtube.com/embed/u_X8TSz67zQ?si=VvIbNaqmX4Hl5OO3",
-    },
-    {
-      id: 2,
-      url: "https://www.youtube.com/embed/LmzE-twYLH8?si=fTfyplD7MSx-vK0b",
-    },
-    {
-      id: 3,
-      url: "https://www.youtube.com/embed/_AEa2p7a5XI?si=tzW5vNneuArmLr23",
-    },
-    {
-      id: 4,
-      url: "https://www.youtube.com/embed/0GUhtLqEuK8?si=A870Jwe6c0VMoBQw",
-    },
-    {
-      id: 5,
-      url: "https://www.youtube.com/embed/YXjM5QncjRo?si=arSG7HL5rLrnNEMW",
-    },
-    {
-      id: 6,
-      url: "https://www.youtube.com/embed/O3rUNT-xFNs?si=5cJaQ6w7svB5pOVH",
-    },
-    {
-      id: 7,
-      url: "https://www.youtube.com/embed/GDdBDMCZK3c?si=OS753izSVxWMTLW0",
-    },
-    {
-      id: 8,
-      url: "https://www.youtube.com/embed/0HawD_Q66do?si=YJfVI7ox0X70Qaf7",
-    },
-  ];
+  const { t } = useTranslation();
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {

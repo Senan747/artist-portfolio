@@ -5,9 +5,11 @@ import ForMore from "./ForMore";
 import data from "../../arts.json";
 import { setArt } from "../stores/art";
 import { useDispatch } from "react-redux";
+import { useTranslation } from "react-i18next";
 
 function Arts() {
   const imageElements = [];
+  const { t, i18n } = useTranslation();
   const [photoNumber, setPhotoNumber] = useState();
   let location = useLocation();
   let navigate = useNavigate();
@@ -58,7 +60,7 @@ function Arts() {
   return (
     <div id="#arts" className="my-20 w-full">
       <h1 className="font-Josefin text-7xl text-center py-10 text-gega-green max-lg:text-4xl">
-        Əsərlər
+        {t("menu.photos")}
       </h1>
       <div className="">
         <ResponsiveMasonry

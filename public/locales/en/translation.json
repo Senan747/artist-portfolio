@@ -1,11 +1,19 @@
 {
   "welcomeMessage": "Welcome to our website!",
+  "artist": "Artist",
+  "contact_1": "Name",
+  "contact_2": "Enter your gmail",
+  "contact_3": "Enter your message",
+  "contact_4": "Send",
+  "about_1": "Interviews",
+  "footer_1": "About us",
+  "footer_2": "Contact us",
+  "footer_3": "Follow us",
+  "InfoAbout": "Agayev Intigam Tofig oglu was born in 1966 in Sumgait, Azerbaijan. In 1983-1989, he graduated from the Azerbaijan State Art School named after A. Azimzadeh. Artist Intigam Agayev is a reserve officer, Karabakh group II disabled. He graduated from the Art School named after Azim Azimzadeh. His paintings are in impressionism style. Mostly, he uses oil paint. Domestic, seascapes and war themes are predominant in his works. Intigam Agayev is one of the talented artists in the world of art with a unique style. Looking at his paintings, one cannot imagine that he was a participant in the Karabakh war, took part in heavy battles, and suffered tragic losses that left a deep mark on his memory. Because the main motto in creativity is to transmit only positive energy, good impression and optimistic mood to the audience. He is one of the artists who can revive his sadness and pain with colorful paints on canvas and beautiful natural landscapes. Although he does not forget what happened on the front, he tries to instill optimism in people by depicting the blue Caspian Sea, carefree childhood years, and the mysterious nature of Absheron in his paintings. Although the main theme of Intigam Aghayev's creativity is patriotism, he never promotes pain, pessimism, and helplessness in his paintings. instills a sense of moral comfort and hope in the audience, conveys the belief that good will sooner or later triumph over evil. In a word, the artist's work full of optimism teaches everyone that life is beautiful, to live it joyfully, to the fullest, and not to resent life no matter what happens. Intigam Agayev prepared with great enthusiasm, and this line is preserved in the paintings included in the new exhibition that he will organize recently.",
   "menu": {
     "home": "Home",
     "about": "About",
     "photos": "Arts",
-    "contact": "Contact",
-    "artist": "Artist",
-    "InfoAbout": "Agayev Intigam Tofig oglu was born in 1966 in Sumgait, Azerbaijan. In 1983-1989, he graduated from the Azerbaijan State Art School named after A. Azimzadeh. Artist Intigam Agayev is a reserve officer, Karabakh group II disabled. He graduated from the Art School named after Azim Azimzadeh. His paintings are in impressionism style. Mostly, he uses oil paint. Domestic, seascapes and war themes are predominant in his works. Intigam Agayev is one of the talented artists in the world of art with a unique style. Looking at his paintings, one cannot imagine that he was a participant in the Karabakh war, took part in heavy battles, and suffered tragic losses that left a deep mark on his memory. Because the main motto in creativity is to transmit only positive energy, good impression and optimistic mood to the audience. He is one of the artists who can revive his sadness and pain with colorful paints on canvas and beautiful natural landscapes. Although he does not forget what happened on the front, he tries to instill optimism in people by depicting the blue Caspian Sea, carefree childhood years, and the mysterious nature of Absheron in his paintings. Although the main theme of Intigam Aghayev's creativity is patriotism, he never promotes pain, pessimism, and helplessness in his paintings. instills a sense of moral comfort and hope in the audience, conveys the belief that good will sooner or later triumph over evil. In a word, the artist's work full of optimism teaches everyone that life is beautiful, to live it joyfully, to the fullest, and not to resent life no matter what happens. Intigam Agayev prepared with great enthusiasm, and this line is preserved in the paintings included in the new exhibition that he will organize recently."
+    "contact": "Contact"
   }
 }
