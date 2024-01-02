@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useLocation, useNavigate } from "react-router-dom";
 import ForMore from "./ForMore";
-import data from "../../arts.json";
 import { setArt } from "../stores/art";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
 
 function Arts() {
+  const { art } = useSelector((state) => state.art);
   const imageElements = [];
   const { t, i18n } = useTranslation();
   const [photoNumber, setPhotoNumber] = useState();
@@ -24,7 +24,7 @@ function Arts() {
 
   const handleClick = (newData) => {
     dispatch(setArt(newData));
-    navigate(`/art/${newData.name}`);
+    navigate(`/art/${newData}`);
   };
 
   for (let i = 1; i < count; i++) {
@@ -36,7 +36,7 @@ function Arts() {
           setPhotoNumber(i);
         }}
         onMouseLeave={() => setPhotoNumber("")}
-        onClick={() => handleClick(data[i - 1])}
+        onClick={() => handleClick(i)}
       >
         <img
           src={`/intiqam_${i}_big.webp`}
@@ -46,10 +46,10 @@ function Arts() {
         {photoNumber === i && (
           <div className="absolute animate-height w-full h-full opacity-[0.9] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gega-white flex flex-col items-center justify-center">
             <h2 className="text-center text-gega-black font-semibold">
-              {data[i - 1].author}
+              {t(`data.${i - 1}.author`)}
             </h2>
             <h2 className="text-center text-gega-black font-semibold">
-              {data[i - 1].name}
+              {t(`data.${i - 1}.name`)}
             </h2>
           </div>
         )}

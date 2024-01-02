@@ -15,5 +15,358 @@
     "about": "Hakkında",
     "photos": "Resimler",
     "contact": "İletişim"
-  }
+  },
+  "data": [
+    {
+      "id": 1,
+      "author": "Intiqam Ağayev",
+      "name": "Dağlar",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x90 cm"
+    },
+    {
+      "id": 2,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron",
+      "year": 2007,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "65x45 cm"
+    },
+    {
+      "id": 3,
+      "author": "Intiqam Ağayev",
+      "name": "İçeri Şehir",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x75 cm"
+    },
+    {
+      "id": 4,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron Motifi",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "100x100 cm"
+    },
+    {
+      "id": 5,
+      "author": "Intiqam Ağayev",
+      "name": "Liman",
+      "year": 2007,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "30x50 cm"
+    },
+    {
+      "id": 6,
+      "author": "Intiqam Ağayev",
+      "name": "Bakü",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "80x90 cm"
+    },
+    {
+      "id": 7,
+      "author": "Intiqam Ağayev",
+      "name": "Triptik",
+      "year": "sağ bölüm",
+      "technique": "2009 tuval üzeri yağlı boya",
+      "dimensions": "50x100 cm"
+    },
+    {
+      "id": 8,
+      "author": "Intiqam Ağayev",
+      "name": "Triptik",
+      "year": "orta bölüm",
+      "technique": "2009 tuval üzeri yağlı boya",
+      "dimensions": "60x70 cm"
+    },
+    {
+      "id": 9,
+      "author": "Intiqam Ağayev",
+      "name": "Triptik",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "50x100 cm"
+    },
+    {
+      "id": 10,
+      "author": "Intiqam Ağayev",
+      "name": "Triptik",
+      "year": "2009",
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "50x100 cm"
+    },
+    {
+      "id": 10,
+      "author": "Intiqam Ağayev",
+      "name": "Triptik",
+      "year": "2009",
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "50x100 cm"
+    },
+    {
+      "id": 11,
+      "author": "Intiqam Ağayev",
+      "name": "İlk Uçuş",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x45 cm"
+    },
+    {
+      "id": 12,
+      "author": "Intiqam Ağayev",
+      "name": "Sessiz Çocuk",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x45 cm"
+    },
+    {
+      "id": 13,
+      "author": "Intiqam Ağayev",
+      "name": "Şehir Suları",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "65x110 cm"
+    },
+    {
+      "id": 14,
+      "author": "Intiqam Ağayev",
+      "name": "Denizden Gökyüzüne",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "80x140 cm"
+    },
+    {
+      "id": 15,
+      "author": "Intiqam Ağayev",
+      "name": "Yalnızlık",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "100x60 cm"
+    },
+    {
+      "id": 16,
+      "author": "Intiqam Ağayev",
+      "name": "Yalnızlık",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "50x100 cm"
+    },
+    {
+      "id": 17,
+      "author": "Intiqam Ağayev",
+      "name": "Bekleyiş",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "80x140 cm"
+    },
+    {
+      "id": 18,
+      "author": "Intiqam Ağayev",
+      "name": "Hazara",
+      "year": 2010,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x90 cm"
+    },
+    {
+      "id": 19,
+      "author": "Intiqam Ağayev",
+      "name": "Düşünce",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "100x120 cm"
+    },
+    {
+      "id": 20,
+      "author": "Intiqam Ağayev",
+      "name": "Umut",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "70x45 cm"
+    },
+    {
+      "id": 21,
+      "author": "Intiqam Ağayev",
+      "name": "Mutlu Aile",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "85x50 cm"
+    },
+    {
+      "id": 22,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2008,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "80x60 cm"
+    },
+    {
+      "id": 23,
+      "author": "Intiqam Ağayev",
+      "name": "Yorgunluk",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "30x45 cm"
+    },
+    {
+      "id": 24,
+      "author": "Intiqam Ağayev",
+      "name": "İçeri Şehir",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "98x140 cm"
+    },
+    {
+      "id": 25,
+      "author": "Intiqam Ağayev",
+      "name": "Terkedilmiş Yer",
+      "year": 2010,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "74x119 cm"
+    },
+    {
+      "id": 26,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 27,
+      "author": "Intiqam Ağayev",
+      "name": "İçeri Şehir",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "70x80 cm"
+    },
+    {
+      "id": 28,
+      "author": "Intiqam Ağayev",
+      "name": "İç Şehir'in Gece Manzarası",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x100 cm"
+    },
+    {
+      "id": 29,
+      "author": "Intiqam Ağayev",
+      "name": "İpek Yolu",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "122x98 cm"
+    },
+    {
+      "id": 30,
+      "author": "Intiqam Ağayev",
+      "name": "Mugam'da Dünya",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "87x93 cm"
+    },
+    {
+      "id": 31,
+      "author": "Intiqam Ağayev",
+      "name": "Natürmort",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "80x60 cm"
+    },
+    {
+      "id": 32,
+      "author": "Intiqam Ağayev",
+      "name": "Petrolcü",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "75x145 cm"
+    },
+    {
+      "id": 33,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "140x98 cm"
+    },
+    {
+      "id": 34,
+      "author": "Intiqam Ağayev",
+      "name": "Mahalle Sakinleri",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "70x80 cm"
+    },
+    {
+      "id": 35,
+      "author": "Intiqam Ağayev",
+      "name": "Şehname Efsanesi",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "100x60 cm"
+    },
+    {
+      "id": 36,
+      "author": "Intiqam Ağayev",
+      "name": "Sonun Başlangıcı",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya"
+    },
+    {
+      "id": 37,
+      "author": "Intiqam Ağayev",
+      "name": "Benim Sumgayit'im",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "98x145 cm"
+    },
+    {
+      "id": 38,
+      "author": "Intiqam Ağayev",
+      "name": "Kader",
+      "year": 2009,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "70x80 cm"
+    },
+    {
+      "id": 39,
+      "author": "Intiqam Ağayev",
+      "name": "Dut Ağacı",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "60x80 cm"
+    },
+    {
+      "id": 40,
+      "author": "Intiqam Ağayev",
+      "name": "Vagif'in Dünyası",
+      "year": 2010,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "110x79 cm"
+    },
+    {
+      "id": 41,
+      "author": "Intiqam Ağayev",
+      "name": "Hazar Ayı",
+      "year": 2010,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "93x160 cm"
+    },
+    {
+      "id": 42,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 43,
+      "author": "Intiqam Ağayev",
+      "name": "Rüya",
+      "year": 2011,
+      "technique": "Tuval üzeri yağlı boya",
+      "dimensions": "75x110 cm"
+    }
+  ]
 }

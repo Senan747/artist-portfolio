@@ -15,5 +15,350 @@
     "about": "About",
     "photos": "Arts",
     "contact": "Contact"
-  }
+  },
+  "data": [
+    {
+      "id": 1,
+      "author": "Intiqam Agayev",
+      "name": "Mountains",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "60x90cm"
+    },
+    {
+      "id": 2,
+      "author": "Intiqam Agayev",
+      "name": "Absheron",
+      "year": 2007,
+      "technique": "canvas oil paint",
+      "dimensions": "65x45cm"
+    },
+    {
+      "id": 3,
+      "author": "Intiqam Agayev",
+      "name": "Inner City",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "60x75cm"
+    },
+    {
+      "id": 4,
+      "author": "Intiqam Agayev",
+      "name": "Absheron Motif",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "100x100cm"
+    },
+    {
+      "id": 5,
+      "author": "Intiqam Agayev",
+      "name": "Port",
+      "year": 2007,
+      "technique": "canvas oil paint",
+      "dimensions": "30x50cm"
+    },
+    {
+      "id": 6,
+      "author": "Intiqam Agayev",
+      "name": "Baku",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "80x90cm"
+    },
+    {
+      "id": 7,
+      "author": "Intiqam Agayev",
+      "name": "Triptych",
+      "year": "right section",
+      "technique": "2009 canvas oil paint",
+      "dimensions": "50x100cm"
+    },
+    {
+      "id": 8,
+      "author": "Intiqam Agayev",
+      "name": "Triptych",
+      "year": "center section",
+      "technique": "2009 canvas oil paint",
+      "dimensions": "60x70cm"
+    },
+    {
+      "id": 9,
+      "author": "Intiqam Agayev",
+      "name": "Triptych",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "50x100cm"
+    },
+    {
+      "id": 10,
+      "author": "Intiqam Agayev",
+      "name": "Triptych",
+      "year": "2009",
+      "technique": "canvas oil paint",
+      "dimensions": "50x100cm"
+    },
+    {
+      "id": 11,
+      "author": "Intiqam Agayev",
+      "name": "First Flight",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "60x45cm"
+    },
+    {
+      "id": 12,
+      "author": "Intiqam Agayev",
+      "name": "Silent Child",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "60x45cm"
+    },
+    {
+      "id": 13,
+      "author": "Intiqam Agayev",
+      "name": "City Waters",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "65x110cm"
+    },
+    {
+      "id": 14,
+      "author": "Intiqam Agayev",
+      "name": "From Sea to Sky",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "80x140cm"
+    },
+    {
+      "id": 15,
+      "author": "Intiqam Agayev",
+      "name": "Solitude",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "100x60cm"
+    },
+    {
+      "id": 16,
+      "author": "Intiqam Agayev",
+      "name": "Solitude",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "50x100cm"
+    },
+    {
+      "id": 17,
+      "author": "Intiqam Agayev",
+      "name": "Waiting",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "80x140cm"
+    },
+    {
+      "id": 18,
+      "author": "Intiqam Agayev",
+      "name": "Approach on the Caspian",
+      "year": 2010,
+      "technique": "canvas oil paint",
+      "dimensions": "60x90cm"
+    },
+    {
+      "id": 19,
+      "author": "Intiqam Agayev",
+      "name": "Thought",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "100x120cm"
+    },
+    {
+      "id": 20,
+      "author": "Intiqam Agayev",
+      "name": "Hope",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "70x45cm"
+    },
+    {
+      "id": 21,
+      "author": "Intiqam Agayev",
+      "name": "Happy Family",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "85x50cm"
+    },
+    {
+      "id": 22,
+      "author": "Intiqam Agayev",
+      "name": "Novruz",
+      "year": 2008,
+      "technique": "canvas oil paint",
+      "dimensions": "80x60cm"
+    },
+    {
+      "id": 23,
+      "author": "Intiqam Agayev",
+      "name": "Fatigue",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "30x45cm"
+    },
+    {
+      "id": 24,
+      "author": "Intiqam Agayev",
+      "name": "Inner City",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "98x140cm"
+    },
+    {
+      "id": 25,
+      "author": "Intiqam Agayev",
+      "name": "Deserted Place",
+      "year": 2010,
+      "technique": "canvas oil paint",
+      "dimensions": "74x119cm"
+    },
+    {
+      "id": 26,
+      "author": "Intiqam Agayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 27,
+      "author": "Intiqam Agayev",
+      "name": "Inner City",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "70x80cm"
+    },
+    {
+      "id": 28,
+      "author": "Intiqam Agayev",
+      "name": "Night View of Inner City",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "60x100cm"
+    },
+    {
+      "id": 29,
+      "author": "Intiqam Agayev",
+      "name": "Silk Road",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "122x98cm"
+    },
+    {
+      "id": 30,
+      "author": "Intiqam Agayev",
+      "name": "World in Mugham",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "87x93cm"
+    },
+    {
+      "id": 31,
+      "author": "Intiqam Agayev",
+      "name": "Still Life",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "80x60cm"
+    },
+    {
+      "id": 32,
+      "author": "Intiqam Agayev",
+      "name": "Oilman",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "75x145cm"
+    },
+    {
+      "id": 33,
+      "author": "Intiqam Agayev",
+      "name": "Novruz",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "140x98cm"
+    },
+    {
+      "id": 34,
+      "author": "Intiqam Agayev",
+      "name": "Neighborhood Birdwatchers",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "70x80cm"
+    },
+    {
+      "id": 35,
+      "author": "Intiqam Agayev",
+      "name": "Shahnameh Legend",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "100x60cm"
+    },
+    {
+      "id": 36,
+      "author": "Intiqam Agayev",
+      "name": "Beginning of the End",
+      "year": 2009,
+      "technique": "canvas oil paint"
+    },
+    {
+      "id": 37,
+      "author": "Intiqam Agayev",
+      "name": "My Sumgayit",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "98x145cm"
+    },
+    {
+      "id": 38,
+      "author": "Intiqam Agayev",
+      "name": "Destiny",
+      "year": 2009,
+      "technique": "canvas oil paint",
+      "dimensions": "70x80cm"
+    },
+    {
+      "id": 39,
+      "author": "Intiqam Agayev",
+      "name": "Mulberry Tree",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "60x80cm"
+    },
+    {
+      "id": 40,
+      "author": "Intiqam Agayev",
+      "name": "Vagif's World",
+      "year": 2010,
+      "technique": "canvas oil paint",
+      "dimensions": "110x79cm"
+    },
+    {
+      "id": 41,
+      "author": "Intiqam Agayev",
+      "name": "Caspian Moon",
+      "year": 2010,
+      "technique": "canvas oil paint",
+      "dimensions": "93x160cm"
+    },
+    {
+      "id": 42,
+      "author": "Intiqam Agayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 43,
+      "author": "Intiqam Agayev",
+      "name": "Dream",
+      "year": 2011,
+      "technique": "canvas oil paint",
+      "dimensions": "75x110cm"
+    }
+  ]
 }

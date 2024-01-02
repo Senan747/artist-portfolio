@@ -15,5 +15,350 @@
     "about": "Haqqında",
     "photos": "Rəsmlər",
     "contact": "Əlaqə"
-  }
+  },
+  "data": [
+    {
+      "id": 1,
+      "author": "Intiqam Ağayev",
+      "name": "Dağlar",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x90sm"
+    },
+    {
+      "id": 2,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron",
+      "year": 2007,
+      "technique": "kətan yağlı boya",
+      "dimensions": "65x45sm"
+    },
+    {
+      "id": 3,
+      "author": "Intiqam Ağayev",
+      "name": "İçəri Şəhər",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x75sm"
+    },
+    {
+      "id": 4,
+      "author": "Intiqam Ağayev",
+      "name": "Abşeron motivi",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x100sm"
+    },
+    {
+      "id": 5,
+      "author": "Intiqam Ağayev",
+      "name": "Liman",
+      "year": 2007,
+      "technique": "kətan yağlı boya",
+      "dimensions": "30x50sm"
+    },
+    {
+      "id": 6,
+      "author": "Intiqam Ağayev",
+      "name": "Bakı",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x90sm"
+    },
+    {
+      "id": 7,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "sağ hissə",
+      "technique": "2009 kətan yağlı boya",
+      "dimensions": "50x100sm"
+    },
+    {
+      "id": 8,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "mərkəz hissə",
+      "technique": "2009 kətan yağlı boya",
+      "dimensions": "60x70sm"
+    },
+    {
+      "id": 9,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "50x100sm"
+    },
+    {
+      "id": 10,
+      "author": "Intiqam Ağayev",
+      "name": "Triptix",
+      "year": "2009",
+      "technique": " kətan yağlı boya",
+      "dimensions": "50x100sm"
+    },
+    {
+      "id": 11,
+      "author": "Intiqam Ağayev",
+      "name": "İlk uçuş",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x45sm"
+    },
+    {
+      "id": 12,
+      "author": "Intiqam Ağayev",
+      "name": "Şıltaq uşaq",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x45sm"
+    },
+    {
+      "id": 13,
+      "author": "Intiqam Ağayev",
+      "name": "Şehirli sular",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "65x110sm"
+    },
+    {
+      "id": 14,
+      "author": "Intiqam Ağayev",
+      "name": "Dənizdən Asimana",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x140sm"
+    },
+    {
+      "id": 15,
+      "author": "Intiqam Ağayev",
+      "name": "Tənha",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x60sm"
+    },
+    {
+      "id": 16,
+      "author": "Intiqam Ağayev",
+      "name": "Tənha",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "50x100sm"
+    },
+    {
+      "id": 17,
+      "author": "Intiqam Ağayev",
+      "name": "İntizar",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x140sm"
+    },
+    {
+      "id": 18,
+      "author": "Intiqam Ağayev",
+      "name": "Xəzərdə qürüb",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x90sm"
+    },
+    {
+      "id": 19,
+      "author": "Intiqam Ağayev",
+      "name": "Düşüncə",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x120sm"
+    },
+    {
+      "id": 20,
+      "author": "Intiqam Ağayev",
+      "name": "Ümüd",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x45sm"
+    },
+    {
+      "id": 21,
+      "author": "Intiqam Ağayev",
+      "name": "Xoşbəxt ailə",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "85x50sm"
+    },
+    {
+      "id": 22,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2008,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x60sm"
+    },
+    {
+      "id": 23,
+      "author": "Intiqam Ağayev",
+      "name": "Yorğunluq",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "30x45sm"
+    },
+    {
+      "id": 24,
+      "author": "Intiqam Ağayev",
+      "name": "İcəri Şəhər",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "98x140sm"
+    },
+    {
+      "id": 25,
+      "author": "Intiqam Ağayev",
+      "name": "Desgah",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "74x119sm"
+    },
+    {
+      "id": 26,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 27,
+      "author": "Intiqam Ağayev",
+      "name": "İceri Şəhər",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
+    },
+    {
+      "id": 28,
+      "author": "Intiqam Ağayev",
+      "name": "İceri Şəhərin gecə nağılı",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x100sm"
+    },
+    {
+      "id": 29,
+      "author": "Intiqam Ağayev",
+      "name": "İpək yolu",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "122x98sm"
+    },
+    {
+      "id": 30,
+      "author": "Intiqam Ağayev",
+      "name": "Dünya muğamda",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "87x93sm"
+    },
+    {
+      "id": 31,
+      "author": "Intiqam Ağayev",
+      "name": "Natürmort",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "80x60sm"
+    },
+    {
+      "id": 32,
+      "author": "Intiqam Ağayev",
+      "name": "Neftçi",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "75x145sm"
+    },
+    {
+      "id": 33,
+      "author": "Intiqam Ağayev",
+      "name": "Novruz",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "140x98sm"
+    },
+    {
+      "id": 34,
+      "author": "Intiqam Ağayev",
+      "name": "Məhəllə quşbazları",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
+    },
+    {
+      "id": 35,
+      "author": "Intiqam Ağayev",
+      "name": "Şanapipik əfsanəsi",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "100x60sm"
+    },
+    {
+      "id": 36,
+      "author": "Intiqam Ağayev",
+      "name": "Sonun əvvəli",
+      "year": 2009,
+      "technique": "kətan yağlı boya"
+    },
+    {
+      "id": 37,
+      "author": "Intiqam Ağayev",
+      "name": "Mənim Sumqayıtım",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "98x145sm"
+    },
+    {
+      "id": 38,
+      "author": "Intiqam Ağayev",
+      "name": "Taleh",
+      "year": 2009,
+      "technique": "kətan yağlı boya",
+      "dimensions": "70x80sm"
+    },
+    {
+      "id": 39,
+      "author": "Intiqam Ağayev",
+      "name": "Tut ağacı",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "60x80sm"
+    },
+    {
+      "id": 40,
+      "author": "Intiqam Ağayev",
+      "name": "Vaqifin dünyası",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "110x79sm"
+    },
+    {
+      "id": 41,
+      "author": "Intiqam Ağayev",
+      "name": "Xəzərin mehi",
+      "year": 2010,
+      "technique": "kətan yağlı boya",
+      "dimensions": "93x160sm"
+    },
+    {
+      "id": 42,
+      "author": "Intiqam Ağayev",
+      "name": null,
+      "year": null,
+      "technique": null,
+      "dimensions": null
+    },
+    {
+      "id": 43,
+      "author": "Intiqam Ağayev",
+      "name": "Yuxu",
+      "year": 2011,
+      "technique": "kətan yağlı boya",
+      "dimensions": "75x110sm"
+    }
+  ]
 }

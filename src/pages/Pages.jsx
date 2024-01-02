@@ -22,7 +22,7 @@ function Pages() {
         <Route path={`/`} element={<Home />} />
         <Route path={`/arts`} element={<Arts />} />
         <Route path={`/contact`} element={<Contact />} />
-        <Route path={`/art/:name`} element={<Art />} />
+        <Route path={`/art/:id`} element={<Art />} />
         <Route path={`/about`} element={<About />} />
       </Routes>
       <Footer />

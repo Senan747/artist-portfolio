@@ -3,19 +3,13 @@ import emailjs from "@emailjs/browser";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Button, Modal, TextField, TextareaAutosize } from "@mui/material";
+import { t } from "i18next";
 
 function ContactUs({ open, onClose, closeSnackbar }) {
   const form = useRef();
   const { art } = useSelector((state) => state.art);
-  let navigate = useNavigate();
 
-  const message = `Əsərin adı: ${art.name}.`;
-
-  useEffect(() => {
-    if (art.name === undefined) {
-      navigate("/");
-    }
-  }, [art.name, navigate]);
+  const message = `Əsərin adı: ${t(`data.${art}.name`)}`;
 
   const sendEmail = (e) => {
     e.preventDefault();
