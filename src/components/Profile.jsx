@@ -15,7 +15,7 @@ function Profile() {
             />
             <p className="font-semibold text-lg max-lg:hidden">{t("artist")}</p>
             <p className="font-semibold hidden text-base max-lg:block">
-              İntiqam Ağayev
+              İntiqam Ağayev <span className="text-xs">(Asiman)</span>
             </p>
           </div>
           <div className="w-[300px] max-md:w-[200px]">

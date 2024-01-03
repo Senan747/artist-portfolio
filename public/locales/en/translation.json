@@ -16,6 +16,168 @@
     "photos": "Arts",
     "contact": "Contact"
   },
+  "career": [
+    {
+      "year": 2009,
+      "content": "Sumgayit - “Colors of the Caspian” - State Art Gallery.",
+      "images": "/ia_1.jpg"
+    },
+    {
+      "year": 2010,
+      "content": "Sumgayit - “There are colors of sorrow, joy, and hope”. Solo exhibition - Art Gallery.",
+      "images": "/ia_2.jpg"
+    },
+    {
+      "year": 2010,
+      "content": "Baku “Black-White” - Museum Center.",
+      "images": "/ia_9.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Moscow. “Exhibition dedicated to the Unity Day of World Azerbaijanis”.",
+      "images": "/ai-then.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Sumgayit “World of Free Colors” Art Gallery.",
+      "images": "/ia_3.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Baku. “Dreams of Women” Art Villa.",
+      "images": "/ia_10.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Baku. “Sport Art” - Museum Center.",
+      "images": "/ia_11.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Baku. “Unusual Day” - Art Villa",
+      "images": "/ia_12.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Tbilisi “Exhibition of Azerbaijani Artists in Georgia”.",
+      "images": "/ia_13.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Baku. “Season Opening” Creative Center.",
+      "images": "/ia_14.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Baku. “Khojaly” - Painters Union.",
+      "imag es": "/ia_15.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Baku. “Oil and Art” - SOCAR.",
+      "images": "/ia_16.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Baku. “Lights of Baku” - 1969 Gallery.",
+      "images": "/ia_17.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Baku. “Republic Exhibition of Fighter Painters” - Painters Union.",
+      "images": "/ia_5.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Baku. “Asiman” Solo exhibition - Art Villa",
+      "images": "/ia_4.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Sumgayit. “Art Festival” - Art Gallery",
+      "images": "/ia_18.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Baku. “Fish Tower” - Museum Center.",
+      "images": "/ia_19.jpg"
+    },
+    {
+      "year": 2014,
+      "content": "Nakhchivan. “Nakhchivan is the Cradle of Civilization” II International Art Exhibition.",
+      "images": "/ia_6.jpg"
+    },
+    {
+      "year": 2014,
+      "content": "Baku. “Save if you can!” Charity for sick children - Vienna Art Center.",
+      "images": "/ia_7.jpg"
+    },
+    {
+      "year": 2015,
+      "content": "Sumgayit. Solo Exhibition dedicated to the anniversary of the Khojaly Genocide - History Museum.",
+      "images": "/ia_20.jpg"
+    },
+    {
+      "year": 2015,
+      "content": "Baku. “Color of Coffee” - Museum Center.",
+      "images": "/ia_21.jpg"
+    },
+    {
+      "year": 2016,
+      "content": "Nakhchivan. III International Art Festival “Nakhchivan is the Cradle of Civilization”.",
+      "images": "/ia_22.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "1st International Art Workshop. Samsun, Turkey.",
+      "images": "/ia_23.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "Sufi Art Workshop at the Turkish-Russian Friendship House in Ankara, Turkey.",
+      "images": "/ia_24.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "Ankara Capital University 9th Culture and Art Week, Turkey.",
+      "images": "/ia_25.jpg"
+    },
+    {
+      "year": 2018,
+      "content": "Tbilisi, Georgia. Solo exhibition.",
+      "images": "/ia_8.jpg"
+    },
+    {
+      "year": 2018,
+      "content": "Artsonline “Long Live the Republic” International Group Exhibition",
+      "images": "/ia_26.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "1st Congress of Creative Alliances and Cultural Services",
+      "images": "/ia_31.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Cultural Heritage within the framework of the 100th anniversary of the Great Leader Heydar Aliyev",
+      "images": "/ia_27.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Exhibition of Kazakh descriptive art within the framework of Cultural Days of Kazakhstan in Azerbaijan.",
+      "images": "/ia_29.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Fighting Painters",
+      "images": "/ia_30.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "From the International Mugham Center's 'Celebration of Return' event.",
+      "images": "/ia_28.jpg"
+    }
+  ],
   "data": [
     {
       "id": 1,

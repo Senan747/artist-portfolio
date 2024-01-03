@@ -16,6 +16,168 @@
     "photos": "Resimler",
     "contact": "İletişim"
   },
+  "career": [
+    {
+      "year": 2009,
+      "content": "Sumgayıt - “Hazar'ın Renkleri” - Devlet Sanat Galerisi.",
+      "images": "./ia_1.jpg"
+    },
+    {
+      "year": 2010,
+      "content": "Sumgayıt - “Üzüntü, Sevinç ve Umudun Renkleri Var”. Kişisel Sergi - Sanat Galerisi.",
+      "images": "/ia_2.jpg"
+    },
+    {
+      "year": 2010,
+      "content": "Bakü “Siyah-Beyaz” - Müze Merkezi.",
+      "images": "/ia_9.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Moskova. “Dünya Azerbaycanlılarının Birlik Günü'ne Adanmış Sergi”.",
+      "images": "/ai-then.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Sumgayıt “Özgür Renkler Dünyası” Sanat Galerisi.",
+      "images": "/ia_3.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Bakü. “Kadınların Hayalleri” Art Villa.",
+      "images": "/ia_10.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Bakü. “Spor Sanatı” - Müze Merkezi.",
+      "images": "/ia_11.jpg"
+    },
+    {
+      "year": 2011,
+      "content": "Bakü. “Olağandışı Gün” - Art Villa",
+      "images": "/ia_12.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Tiflis “Gürcistan'da Azerbaycanlı Sanatçıların Sergisi”.",
+      "images": "/ia_13.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Bakü. “Sezon Açılışı” Yaratıcı Merkez.",
+      "images": "/ia_14.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Bakü. “Hocalı” - Ressamlar Birliği.",
+      "images": "/ia_15.jpg"
+    },
+    {
+      "year": 2012,
+      "content": "Bakü. “Petrol ve Sanat” - SOCAR.",
+      "images": "/ia_16.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Bakü. “Bakü'nün Işıkları” - 1969 Galerisi.",
+      "images": "/ia_17.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Bakü. “Savaşçı Ressamların Cumhuriyet Sergisi” - Ressamlar Birliği.",
+      "images": "/ia_5.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Bakü. “Asiman” Kişisel Sergi - Art Villa",
+      "images": "/ia_4.jpg"
+    },
+    {
+      "year": 2013,
+      "content": "Sumgayıt. “Sanat Festivali” - Sanat Galerisi",
+      "images": "/ia_18.jpg"
+    },
+    {
+      "year": 3,
+      "content": "Bakü. “Balık Kulesi” - Müze Merkezi.",
+      "images": "/ia_19.jpg"
+    },
+    {
+      "year": 2014,
+      "content": "Nahçıvan. “Nahçıvan Medeniyetin Beşiği” II Uluslararası Sanat Sergisi.",
+      "images": "/ia_6.jpg"
+    },
+    {
+      "year": 2014,
+      "content": "Bakü. “Kurtarabilirsen!” Hasta Çocuklar İçin Yardım - Viyana Sanat Merkezi.",
+      "images": "/ia_7.jpg"
+    },
+    {
+      "year": 2015,
+      "content": "Sumgayıt. Khojaly Soykırımı'nın yıldönümüne adanmış Kişisel Sergi - Tarih Müzesi.",
+      "images": "/ia_20.jpg"
+    },
+    {
+      "year": 2015,
+      "content": "Bakü. “Kahve Rengi” - Müze Merkezi.",
+      "images": "/ia_21.jpg"
+    },
+    {
+      "year": 2016,
+      "content": "Nahçıvan. III Uluslararası Sanat Festivali “Nahçıvan Medeniyetin Beşiği”.",
+      "images": "/ia_22.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "Samsun, Türkiye. 1. Uluslararası Sanat Atölyesi.",
+      "images": "/ia_23.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "Ankara, Türkiye'deki Türk-Rus Dostluk Evi'nde Sufi Sanat Atölyesi.",
+      "images": "/ia_24.jpg"
+    },
+    {
+      "year": 2017,
+      "content": "Ankara Başkent Üniversitesi 9. Kültür ve Sanat Haftası, Türkiye.",
+      "images": "/ia_25.jpg"
+    },
+    {
+      "year": 2018,
+      "content": "Tiflis, Gürcistan. Kişisel Sergi.",
+      "images": "/ia_8.jpg"
+    },
+    {
+      "year": 2018,
+      "content": "Artsonline “Cumhuriyet Yaşasın” Uluslararası Grup Sergisi",
+      "images": "/ia_26.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Yaratıcı İttifaklar ve Kültürel Hizmetlerin 1. Kongresi",
+      "images": "/ia_31.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Büyük Lider Heydar Aliyev'in 100. Yıldönümü çerçevesinde Kültürel Miras",
+      "images": "/ia_27.jpg"
+    },
+    {
+      "year": 2023,
+      "content": " Kazakistan Kültür Günleri kapsamında Azerbaycan'da düzenlenen Kazak güzel sanat eserleri sergisinde ",
+      "images": "/ia_29.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Savaşçı Ressamlar",
+      "images": "/ia_30.jpg"
+    },
+    {
+      "year": 2023,
+      "content": "Uluslararası Mugam Merkezi'nin 'Dönüş Kutlaması' etkinliğinden.",
+      "images": "/ia_28.jpg"
+    }
+  ],
   "data": [
     {
       "id": 1,
