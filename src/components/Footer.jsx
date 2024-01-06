@@ -28,8 +28,8 @@ export default function Footer() {
               {t("footer_1")}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              We are XYZ company, dedicated to providing the best service to our
-              customers.
+              We are Artkotec company, dedicated to providing the best service
+              to our customers.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -37,24 +37,28 @@ export default function Footer() {
               {t("footer_2")}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              123 Main Street, Anytown, USA
+              25-ci məhəllə,Natavan küçəsi,Sumqayıt
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Email: info@example.com
+              Şeyx Şamil Küç-3, İçərişəhər metrosu, Bakı
+            </Typography>
+
+            <Typography variant="body2" color="text.secondary">
+              Email: agaliagazadeh@gmail.com
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Phone: +1 234 567 8901
+              Phone: +994 55 979 81 71  
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
               {t("footer_3")}
             </Typography>
-            <Link href="https://www.facebook.com/" color="inherit">
+            <Link href="https://www.facebook.com/artintiqam" color="inherit">
               <Facebook />
             </Link>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/artintiqam?igsh=ZHRqMnZnZGRmajdm"
               color="inherit"
               sx={{ pl: 1, pr: 1 }}
             >
@@ -74,8 +78,7 @@ export default function Footer() {
             >
               Senan Memmedov
             </Link>{" "}
-            {new Date().getFullYear()}
-            {"."}
+            {new Date().getFullYear()}.
           </Typography>
         </Box>
       </Container>

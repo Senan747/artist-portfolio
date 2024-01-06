@@ -15,10 +15,10 @@ function ContactUs({ open, onClose, closeSnackbar }) {
 
     emailjs
       .sendForm(
-        "service_2rjl7wr",
-        "template_gxqfhy9",
+        "service_a8h5lmy",
+        "template_cbd7skf",
         form.current,
-        "5e7EHxJiEnf_go9bv"
+        "unDSS9eMCr3nnWQzO"
       )
       .then(
         (result) => {

@@ -23,7 +23,7 @@ function Profile() {
           </div>
         </div>
         <div className="ml-10 max-md:ml-0">
-          <h1 className="font-Pacifico text-5xl text-gega-white pb-10 max-lg:hidden">
+          <h1 className="font-Pacifico text-5xl text-gega-white pb-5 max-lg:hidden">
             {t("owner")}
           </h1>
           <p className="text-gega-white max-md:text-justify max-md:text-sm pt-4">

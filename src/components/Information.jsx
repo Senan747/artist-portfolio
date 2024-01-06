@@ -35,7 +35,6 @@ const Information = () => {
       >
         <div className="w-[90%] h-[1px] absolute bg-gega-black text-center"></div>
         <div className="font-Cairo pt-10 max-md:px-3  ">
-          <p className="text-3xl max-md:text-xl">Kariyera</p>
           <p className="text-2xl max-md:text-lg"> {t(`career.${i}.year`)}</p>
         </div>
         <div className="flex flex-col w-[50%] pt-10">

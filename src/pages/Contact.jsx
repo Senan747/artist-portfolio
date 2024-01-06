@@ -19,10 +19,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_2rjl7wr",
-        "template_gxqfhy9",
+        "service_a8h5lmy",
+        "template_cbd7skf",
         form.current,
-        "5e7EHxJiEnf_go9bv"
+        "unDSS9eMCr3nnWQzO"
       )
       .then(
         (result) => {
@@ -81,20 +81,43 @@ function Contact() {
       </div>
       <div className="flex flex-col space-y-4 max-md:hidden">
         <div className="flex items-center space-x-2">
-          <FaInstagram className="text-2xl text-pink-500" />
-          <div className="text-lg">Instagram</div>
+          <FaInstagram className="text-2xl" />
+          <a
+            className="text-lg"
+            href="https://www.instagram.com/artintiqam?igsh=ZHRqMnZnZGRmajdm"
+          >
+            Instagram/@artintiqam
+          </a>
         </div>
         <div className="flex items-center space-x-2">
-          <FaFacebook className="text-2xl text-blue-600" />
-          <div className="text-lg">Facebook</div>
+          <FaFacebook className="text-2xl " />
+          <a href="https://www.facebook.com/artintiqam" className="text-lg">
+            Facebook/@artintiqam
+          </a>
         </div>
         <div className="flex items-center space-x-2">
-          <GrMapLocation className="text-2xl text-green-500" />
-          <div className="text-lg">Address</div>
+          <GrMapLocation className="text-2xl" />
+          <a
+            href="https://www.google.com/maps?q=40.6040828,49.6622281&z=17&hl=az"
+            className="text-lg"
+          >
+            25-ci məhəllə,Natavan küçəsi,Sumqayıt
+          </a>
         </div>
         <div className="flex items-center space-x-2">
-          <AiOutlinePhone className="text-2xl text-blue-700" />
-          <div className="text-lg">Mobil</div>
+          <GrMapLocation className="text-2xl" />
+          <a
+            href="https://maps.google.com/?cid=3541925360965770305&entry=gps"
+            className="text-lg"
+          >
+            Şeyx Şamil Küç-3, İçərişəhər metrosu, Bakı
+          </a>
+        </div>
+        <div className="flex items-center space-x-2">
+          <AiOutlinePhone className="text-2xl" />
+          <a href="tel:+994 55 979 81 71" className="text-lg">
+            +994 55 979 81 71
+          </a>
         </div>
       </div>
       <SnackbarComponent
