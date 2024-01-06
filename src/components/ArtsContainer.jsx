@@ -59,7 +59,7 @@ function Arts() {
 
   return (
     <div id="#arts" className="my-20 w-full">
-      <h1 className="font-Josefin text-7xl text-center py-10 text-gega-green max-lg:text-4xl">
+      <h1 className="font-Josefin text-5xl text-center py-10 text-gega-earth max-lg:text-4xl">
         {t("menu.photos")}
       </h1>
       <div className="">

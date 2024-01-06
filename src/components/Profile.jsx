@@ -15,7 +15,7 @@ function Profile() {
             />
             <p className="font-semibold text-lg max-lg:hidden">{t("artist")}</p>
             <p className="font-semibold hidden text-base max-lg:block">
-              İntiqam Ağayev <span className="text-xs">(Asiman)</span>
+              {t("owner")} <span className="text-xs">({t("nick")})</span>
             </p>
           </div>
           <div className="w-[300px] max-md:w-[200px]">
@@ -24,7 +24,7 @@ function Profile() {
         </div>
         <div className="ml-10 max-md:ml-0">
           <h1 className="font-Pacifico text-5xl text-gega-white pb-10 max-lg:hidden">
-            İntiqam Ağayev
+            {t("owner")}
           </h1>
           <p className="text-gega-white max-md:text-justify max-md:text-sm pt-4">
             {t("InfoAbout")}

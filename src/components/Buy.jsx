@@ -1,15 +1,14 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import { Button, Modal, TextField, TextareaAutosize } from "@mui/material";
+import { Button, Modal, TextField } from "@mui/material";
 import { t } from "i18next";
 
 function ContactUs({ open, onClose, closeSnackbar }) {
   const form = useRef();
   const { art } = useSelector((state) => state.art);
 
-  const message = `Əsərin adı: ${t(`data.${art}.name`)}`;
+  const message = `${t("art_name")}: ${t(`data.${art}.name`)}`;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -50,21 +49,21 @@ function ContactUs({ open, onClose, closeSnackbar }) {
           className="flex flex-col gap-7 w-full"
         >
           <TextField
-            label="Ad"
+            label={t("mes_owner")}
             id="user_name"
             name="user_name"
             variant="outlined"
             required
           />
           <TextField
-            label="Mailinizi qeyd edin"
+            label={t("mes_mail")}
             id="user_email"
             name="user_email"
             variant="outlined"
             required
           />
           <TextField
-            label="Mesajınızı qeyd edin"
+            label={t("Mes_abt")}
             id="message"
             name="message"
             multiline
@@ -79,12 +78,12 @@ function ContactUs({ open, onClose, closeSnackbar }) {
             color="primary"
             className="w-full"
           >
-            Gönder
+            {t("send")}
           </Button>
         </form>
-        <p className="font-Inter">Və ya</p>
+        <p className="font-Inter">{t("or")}</p>
         <Button variant="outlined" color="primary" className="w-full">
-          <a href="tel:+994507832995">Zəng edin</a>
+          <a href="tel:+994507832995">{t("call")}</a>
         </Button>
       </div>
     </Modal>

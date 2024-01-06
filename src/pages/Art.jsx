@@ -42,28 +42,28 @@ function Art() {
           />
         </div>
 
-        <div className="text-justify">
+        <div className="text-justify max-md:mt-10">
           <h1 className="text-3xl font-semibold mb-2">
-            Əsərin adı: {t(`data.${art}.name`)}
+            {t("art_name")}: {t(`data.${art}.name`)}
           </h1>
           <h1 className="text-xl font-medium mb-2">
-            Rəssam: {t(`data.${art}.author`)}
+            {t("artist")}: {t(`data.${art}.author`)}
           </h1>
           <h1 className="text-lg font-normal mb-2">
-            Ölçülər: {t(`data.${art}.dimensions`)}
+            {t("dimension")}: {t(`data.${art}.dimensions`)}
           </h1>
           <h1 className="text-lg font-normal mb-2">
-            Üsul və boyama: {t(`data.${art}.technique`)}
+            {t("style")}: {t(`data.${art}.technique`)}
           </h1>
           <h1 className="text-lg font-normal mb-4">
-            Tarix: {t(`data.${art}.year`)}
+            {t("date")}: {t(`data.${art}.year`)}
           </h1>
 
           <button
-            className="px-9 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
+            className="px-9 py-2 bg-gega-red text-white rounded-full"
             onClick={handleClick}
           >
-            Al
+            {t("buy")}
           </button>
         </div>
       </div>
